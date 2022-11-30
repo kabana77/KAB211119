@@ -267,9 +267,9 @@ object PONBB2Frm: TPONBB2Frm
             1926.166666666667000000)
           BandType = rbTitle
           object QRLabel99: TQRLabel
-            Left = 291
+            Left = 271
             Top = 86
-            Width = 146
+            Width = 186
             Height = 24
             Frame.Color = clBlack
             Frame.DrawTop = False
@@ -278,9 +278,9 @@ object PONBB2Frm: TPONBB2Frm
             Frame.DrawRight = False
             Size.Values = (
               63.500000000000000000
-              769.937500000000000000
+              717.020833333333300000
               227.541666666666700000
-              386.291666666666700000)
+              492.125000000000000000)
             Alignment = taCenter
             AlignToBand = True
             AutoSize = True
@@ -567,9 +567,9 @@ object PONBB2Frm: TPONBB2Frm
             FontSize = 8
           end
           object QRExpr11: TQRExpr
-            Left = 516
+            Left = 470
             Top = 46
-            Width = 200
+            Width = 246
             Height = 24
             Frame.Color = clBlack
             Frame.DrawTop = False
@@ -578,9 +578,9 @@ object PONBB2Frm: TPONBB2Frm
             Frame.DrawRight = False
             Size.Values = (
               63.500000000000000000
-              1365.250000000000000000
+              1243.541666666667000000
               121.708333333333300000
-              529.166666666666700000)
+              650.875000000000000000)
             Alignment = taRightJustify
             AlignToBand = False
             AutoSize = True
@@ -3745,9 +3745,9 @@ object PONBB2Frm: TPONBB2Frm
             1926.166666666667000000)
           BandType = rbTitle
           object QRLTitle2: TQRLabel
-            Left = 291
+            Left = 271
             Top = 84
-            Width = 146
+            Width = 186
             Height = 24
             Frame.Color = clBlack
             Frame.DrawTop = False
@@ -3756,9 +3756,9 @@ object PONBB2Frm: TPONBB2Frm
             Frame.DrawRight = False
             Size.Values = (
               63.500000000000000000
-              769.937500000000000000
+              717.020833333333300000
               222.250000000000000000
-              386.291666666666700000)
+              492.125000000000000000)
             Alignment = taCenter
             AlignToBand = True
             AutoSize = True
@@ -4050,9 +4050,9 @@ object PONBB2Frm: TPONBB2Frm
             FontSize = 8
           end
           object QRExpr4: TQRExpr
-            Left = 516
+            Left = 470
             Top = 46
-            Width = 200
+            Width = 246
             Height = 24
             Frame.Color = clBlack
             Frame.DrawTop = False
@@ -4061,9 +4061,9 @@ object PONBB2Frm: TPONBB2Frm
             Frame.DrawRight = False
             Size.Values = (
               63.500000000000000000
-              1365.250000000000000000
+              1243.541666666667000000
               121.708333333333300000
-              529.166666666666700000)
+              650.875000000000000000)
             Alignment = taRightJustify
             AlignToBand = False
             AutoSize = True

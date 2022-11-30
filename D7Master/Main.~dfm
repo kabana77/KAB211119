@@ -1,6 +1,6 @@
 object MainFrm: TMainFrm
-  Left = 364
-  Top = 229
+  Left = 338
+  Top = 185
   Width = 907
   Height = 505
   Caption = 'PT. KABANA TEXTILE INDUSTRIES'

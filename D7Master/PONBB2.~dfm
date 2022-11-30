@@ -204,7 +204,7 @@ object PONBB2Frm: TPONBB2Frm
       object QuickRep5: TQuickRep
         Left = 216
         Top = 11
-        Width = 793
+        Width = 794
         Height = 529
         Frame.Color = clBlack
         Frame.DrawTop = False
@@ -250,7 +250,7 @@ object PONBB2Frm: TPONBB2Frm
         object QRBand16: TQRBand
           Left = 37
           Top = 10
-          Width = 727
+          Width = 728
           Height = 146
           Frame.Color = clBlack
           Frame.DrawTop = False
@@ -264,10 +264,10 @@ object PONBB2Frm: TPONBB2Frm
           ForceNewPage = False
           Size.Values = (
             386.291666666666700000
-            1923.520833333333000000)
+            1926.166666666667000000)
           BandType = rbTitle
           object QRLabel99: TQRLabel
-            Left = 290
+            Left = 291
             Top = 86
             Width = 146
             Height = 24
@@ -278,7 +278,7 @@ object PONBB2Frm: TPONBB2Frm
             Frame.DrawRight = False
             Size.Values = (
               63.500000000000000000
-              767.291666666666700000
+              769.937500000000000000
               227.541666666666700000
               386.291666666666700000)
             Alignment = taCenter
@@ -298,7 +298,7 @@ object PONBB2Frm: TPONBB2Frm
             FontSize = 14
           end
           object QRExpr3: TQRExpr
-            Left = 328
+            Left = 329
             Top = 109
             Width = 70
             Height = 14
@@ -309,7 +309,7 @@ object PONBB2Frm: TPONBB2Frm
             Frame.DrawRight = False
             Size.Values = (
               37.041666666666670000
-              867.833333333333300000
+              870.479166666666700000
               288.395833333333300000
               185.208333333333300000)
             Alignment = taCenter
@@ -1593,7 +1593,7 @@ object PONBB2Frm: TPONBB2Frm
         object QRBand17: TQRBand
           Left = 37
           Top = 156
-          Width = 727
+          Width = 728
           Height = 17
           Frame.Color = clBlack
           Frame.DrawTop = False
@@ -1607,7 +1607,7 @@ object PONBB2Frm: TPONBB2Frm
           ForceNewPage = False
           Size.Values = (
             44.979166666666670000
-            1923.520833333333000000)
+            1926.166666666667000000)
           BandType = rbColumnHeader
           object QRLabel110: TQRLabel
             Left = 32
@@ -1672,7 +1672,7 @@ object PONBB2Frm: TPONBB2Frm
             FontSize = 8
           end
           object QRLabel112: TQRLabel
-            Left = 460
+            Left = 469
             Top = 0
             Width = 40
             Height = 14
@@ -1683,7 +1683,7 @@ object PONBB2Frm: TPONBB2Frm
             Frame.DrawRight = False
             Size.Values = (
               37.041666666666670000
-              1217.083333333333000000
+              1240.895833333333000000
               0.000000000000000000
               105.833333333333300000)
             Alignment = taCenter
@@ -1765,7 +1765,7 @@ object PONBB2Frm: TPONBB2Frm
             FontSize = 8
           end
           object QRLabel115: TQRLabel
-            Left = 425
+            Left = 434
             Top = 0
             Width = 30
             Height = 14
@@ -1776,7 +1776,7 @@ object PONBB2Frm: TPONBB2Frm
             Frame.DrawRight = False
             Size.Values = (
               37.041666666666670000
-              1124.479166666667000000
+              1148.291666666667000000
               0.000000000000000000
               79.375000000000000000)
             Alignment = taRightJustify
@@ -1858,7 +1858,7 @@ object PONBB2Frm: TPONBB2Frm
             FontSize = 8
           end
           object QRLabel118: TQRLabel
-            Left = 648
+            Left = 649
             Top = 0
             Width = 79
             Height = 14
@@ -1869,7 +1869,7 @@ object PONBB2Frm: TPONBB2Frm
             Frame.DrawRight = False
             Size.Values = (
               37.041666666666670000
-              1714.500000000000000000
+              1717.145833333333000000
               0.000000000000000000
               209.020833333333300000)
             Alignment = taRightJustify
@@ -1923,7 +1923,7 @@ object PONBB2Frm: TPONBB2Frm
         object QRBand18: TQRBand
           Left = 37
           Top = 173
-          Width = 727
+          Width = 728
           Height = 16
           Frame.Color = clBlack
           Frame.DrawTop = False
@@ -1937,7 +1937,7 @@ object PONBB2Frm: TPONBB2Frm
           ForceNewPage = False
           Size.Values = (
             42.333333333333330000
-            1923.520833333333000000)
+            1926.166666666667000000)
           BandType = rbDetail
           object QRDBText74: TQRDBText
             Left = 32
@@ -2036,7 +2036,7 @@ object PONBB2Frm: TPONBB2Frm
             FontSize = 7
           end
           object QRDBText104: TQRDBText
-            Left = 473
+            Left = 483
             Top = 0
             Width = 24
             Height = 15
@@ -2047,7 +2047,7 @@ object PONBB2Frm: TPONBB2Frm
             Frame.DrawRight = False
             Size.Values = (
               39.687500000000000000
-              1251.479166666667000000
+              1277.937500000000000000
               0.000000000000000000
               63.500000000000000000)
             Alignment = taRightJustify
@@ -2070,7 +2070,7 @@ object PONBB2Frm: TPONBB2Frm
             FontSize = 7
           end
           object QRDBText105: TQRDBText
-            Left = 648
+            Left = 649
             Top = 0
             Width = 79
             Height = 15
@@ -2081,7 +2081,7 @@ object PONBB2Frm: TPONBB2Frm
             Frame.DrawRight = False
             Size.Values = (
               39.687500000000000000
-              1714.500000000000000000
+              1717.145833333333000000
               0.000000000000000000
               209.020833333333300000)
             Alignment = taRightJustify
@@ -2197,7 +2197,7 @@ object PONBB2Frm: TPONBB2Frm
             FontSize = 7
           end
           object QRDBText108: TQRDBText
-            Left = 421
+            Left = 431
             Top = 0
             Width = 34
             Height = 15
@@ -2208,7 +2208,7 @@ object PONBB2Frm: TPONBB2Frm
             Frame.DrawRight = False
             Size.Values = (
               39.687500000000000000
-              1113.895833333333000000
+              1140.354166666667000000
               0.000000000000000000
               89.958333333333330000)
             Alignment = taRightJustify
@@ -2268,7 +2268,7 @@ object PONBB2Frm: TPONBB2Frm
         object QRBand19: TQRBand
           Left = 37
           Top = 339
-          Width = 727
+          Width = 728
           Height = 110
           Frame.Color = clBlack
           Frame.DrawTop = False
@@ -2282,7 +2282,7 @@ object PONBB2Frm: TPONBB2Frm
           ForceNewPage = False
           Size.Values = (
             291.041666666666700000
-            1923.520833333333000000)
+            1926.166666666667000000)
           BandType = rbSummary
           object QRDBText111: TQRDBText
             Left = 460
@@ -2787,7 +2787,7 @@ object PONBB2Frm: TPONBB2Frm
         object QRBand20: TQRBand
           Left = 37
           Top = 449
-          Width = 727
+          Width = 728
           Height = 19
           Frame.Color = clBlack
           Frame.DrawTop = False
@@ -2800,7 +2800,7 @@ object PONBB2Frm: TPONBB2Frm
           ForceNewPage = False
           Size.Values = (
             50.270833333333330000
-            1923.520833333333000000)
+            1926.166666666667000000)
           BandType = rbPageFooter
           object QRSysData8: TQRSysData
             Left = 673
@@ -2917,7 +2917,7 @@ object PONBB2Frm: TPONBB2Frm
         object QRBand21: TQRBand
           Left = 37
           Top = 189
-          Width = 727
+          Width = 728
           Height = 150
           Frame.Color = clBlack
           Frame.DrawTop = False
@@ -2931,7 +2931,7 @@ object PONBB2Frm: TPONBB2Frm
           ForceNewPage = False
           Size.Values = (
             396.875000000000000000
-            1923.520833333333000000)
+            1926.166666666667000000)
           BandType = rbGroupFooter
           object QRExpr24: TQRExpr
             Left = 161
@@ -3660,7 +3660,7 @@ object PONBB2Frm: TPONBB2Frm
         object QRGroup3: TQRGroup
           Left = 37
           Top = 173
-          Width = 727
+          Width = 728
           Height = 0
           Frame.Color = clBlack
           Frame.DrawTop = False
@@ -3673,7 +3673,7 @@ object PONBB2Frm: TPONBB2Frm
           ForceNewPage = False
           Size.Values = (
             0.000000000000000000
-            1923.520833333333000000)
+            1926.166666666667000000)
           FooterBand = QRBand21
           Master = QuickRep5
           ReprintOnNewPage = False

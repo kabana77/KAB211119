@@ -1,6 +1,6 @@
 object ValidasiSJWasteFrm: TValidasiSJWasteFrm
-  Left = 491
-  Top = 306
+  Left = 548
+  Top = 234
   Width = 1083
   Height = 567
   Caption = 'Validasi Bon Pemakaian'
@@ -354,9 +354,9 @@ object ValidasiSJWasteFrm: TValidasiSJWasteFrm
             1902.354166666667000000)
           BandType = rbTitle
           object QRLabel46: TQRLabel
-            Left = 300
+            Left = 286
             Top = 70
-            Width = 118
+            Width = 146
             Height = 21
             Frame.Color = clBlack
             Frame.DrawTop = False
@@ -365,9 +365,9 @@ object ValidasiSJWasteFrm: TValidasiSJWasteFrm
             Frame.DrawRight = False
             Size.Values = (
               55.562500000000000000
-              793.750000000000000000
+              756.708333333333300000
               185.208333333333300000
-              312.208333333333300000)
+              386.291666666666700000)
             Alignment = taCenter
             AlignToBand = True
             AutoSize = True
@@ -414,7 +414,7 @@ object ValidasiSJWasteFrm: TValidasiSJWasteFrm
           object QRDBText70: TQRDBText
             Left = 592
             Top = 31
-            Width = 63
+            Width = 79
             Height = 21
             Frame.Color = clBlack
             Frame.DrawTop = False
@@ -425,7 +425,7 @@ object ValidasiSJWasteFrm: TValidasiSJWasteFrm
               55.562500000000000000
               1566.333333333333000000
               82.020833333333330000
-              166.687500000000000000)
+              209.020833333333300000)
             Alignment = taLeftJustify
             AlignToBand = False
             AutoSize = True
@@ -656,7 +656,7 @@ object ValidasiSJWasteFrm: TValidasiSJWasteFrm
           object QRDBText74: TQRDBText
             Left = 592
             Top = 11
-            Width = 41
+            Width = 46
             Height = 21
             Frame.Color = clBlack
             Frame.DrawTop = False
@@ -667,7 +667,7 @@ object ValidasiSJWasteFrm: TValidasiSJWasteFrm
               55.562500000000000000
               1566.333333333333000000
               29.104166666666670000
-              108.479166666666700000)
+              121.708333333333300000)
             Alignment = taLeftJustify
             AlignToBand = False
             AutoSize = True
@@ -2783,9 +2783,9 @@ object ValidasiSJWasteFrm: TValidasiSJWasteFrm
             1902.354166666667000000)
           BandType = rbTitle
           object QRLTitle2: TQRLabel
-            Left = 300
+            Left = 286
             Top = 70
-            Width = 118
+            Width = 146
             Height = 21
             Frame.Color = clBlack
             Frame.DrawTop = False
@@ -2794,9 +2794,9 @@ object ValidasiSJWasteFrm: TValidasiSJWasteFrm
             Frame.DrawRight = False
             Size.Values = (
               55.562500000000000000
-              793.750000000000000000
+              756.708333333333300000
               185.208333333333300000
-              312.208333333333300000)
+              386.291666666666700000)
             Alignment = taCenter
             AlignToBand = True
             AutoSize = True
@@ -2843,7 +2843,7 @@ object ValidasiSJWasteFrm: TValidasiSJWasteFrm
           object QRDBText26: TQRDBText
             Left = 592
             Top = 31
-            Width = 63
+            Width = 79
             Height = 21
             Frame.Color = clBlack
             Frame.DrawTop = False
@@ -2854,7 +2854,7 @@ object ValidasiSJWasteFrm: TValidasiSJWasteFrm
               55.562500000000000000
               1566.333333333333000000
               82.020833333333330000
-              166.687500000000000000)
+              209.020833333333300000)
             Alignment = taLeftJustify
             AlignToBand = False
             AutoSize = True
@@ -3085,7 +3085,7 @@ object ValidasiSJWasteFrm: TValidasiSJWasteFrm
           object QRDBText24: TQRDBText
             Left = 592
             Top = 11
-            Width = 41
+            Width = 46
             Height = 21
             Frame.Color = clBlack
             Frame.DrawTop = False
@@ -3096,7 +3096,7 @@ object ValidasiSJWasteFrm: TValidasiSJWasteFrm
               55.562500000000000000
               1566.333333333333000000
               29.104166666666670000
-              108.479166666666700000)
+              121.708333333333300000)
             Alignment = taLeftJustify
             AlignToBand = False
             AutoSize = True
@@ -6939,7 +6939,7 @@ object ValidasiSJWasteFrm: TValidasiSJWasteFrm
           object QRDBText25: TQRDBText
             Left = 592
             Top = 3
-            Width = 41
+            Width = 46
             Height = 21
             Frame.Color = clBlack
             Frame.DrawTop = False
@@ -6950,7 +6950,7 @@ object ValidasiSJWasteFrm: TValidasiSJWasteFrm
               55.562500000000000000
               1566.333333333333000000
               7.937500000000000000
-              108.479166666666700000)
+              121.708333333333300000)
             Alignment = taLeftJustify
             AlignToBand = False
             AutoSize = True
@@ -7014,9 +7014,9 @@ object ValidasiSJWasteFrm: TValidasiSJWasteFrm
             1902.354166666667000000)
           BandType = rbTitle
           object QRLabel20: TQRLabel
-            Left = 300
+            Left = 286
             Top = 16
-            Width = 118
+            Width = 146
             Height = 21
             Frame.Color = clBlack
             Frame.DrawTop = False
@@ -7025,9 +7025,9 @@ object ValidasiSJWasteFrm: TValidasiSJWasteFrm
             Frame.DrawRight = False
             Size.Values = (
               55.562500000000000000
-              793.750000000000000000
+              756.708333333333300000
               42.333333333333330000
-              312.208333333333300000)
+              386.291666666666700000)
             Alignment = taCenter
             AlignToBand = True
             AutoSize = True
@@ -7074,7 +7074,7 @@ object ValidasiSJWasteFrm: TValidasiSJWasteFrm
           object QRDBText38: TQRDBText
             Left = 592
             Top = 0
-            Width = 63
+            Width = 79
             Height = 21
             Frame.Color = clBlack
             Frame.DrawTop = False
@@ -7085,7 +7085,7 @@ object ValidasiSJWasteFrm: TValidasiSJWasteFrm
               55.562500000000000000
               1566.333333333333000000
               0.000000000000000000
-              166.687500000000000000)
+              209.020833333333300000)
             Alignment = taLeftJustify
             AlignToBand = False
             AutoSize = True
@@ -8457,13 +8457,15 @@ object ValidasiSJWasteFrm: TValidasiSJWasteFrm
           'KD_JNS_ITEM'#9'#,&'#9'T'#9'T')
         Selected.Strings = (
           'NO_NOTA'#9'15'#9'NO NOTA'#9'F'
+          'KD_REKANAN'#9'8'#9'KODE'#9'F'#9'REKANAN'
+          'REKANAN'#9'40'#9'NAMA'#9'F'#9'REKANAN'
+          'JNS_KOREKSI'#9'20'#9'KONTRAK'#9'F'
           'NO_REFF'#9'15'#9'NO SPKB'#9'F'
           'TANGGAL'#9'15'#9'TANGGAL'#9'F'
           'KD_ITEM'#9'10'#9'KODE'#9'F'#9'ITEM BARANG'
           'NAMA_ITEM'#9'40'#9'NAMA'#9'F'#9'ITEM BARANG'
           'SAT1'#9'8'#9'SATUAN'#9'F'#9'ITEM BARANG'
           'QTY'#9'10'#9'QTY'#9'F'
-          'JNS_KOREKSI'#9'20'#9'JENIS'#9'F'
           'ISPOST'#9'6'#9'ISPOST'#9#9
           'STATUS'#9'7'#9'STATUS'#9#9)
         IniAttributes.Enabled = True
@@ -9496,6 +9498,212 @@ object ValidasiSJWasteFrm: TValidasiSJWasteFrm
         OnEnter = LookLOTEnter
       end
     end
+    object TabSheet3: TTabSheet
+      Caption = '&Realisasi'
+      ImageIndex = 2
+      object wwDBGrid4: TwwDBGrid
+        Left = 0
+        Top = 52
+        Width = 1059
+        Height = 352
+        ControlType.Strings = (
+          'ISPOST;CheckBox;1;0')
+        PictureMasks.Strings = (
+          'ID_BAG'#9'*2{#,&}'#9'T'#9'T'
+          'KD_JNS_ITEM'#9'#,&'#9'T'#9'T')
+        Selected.Strings = (
+          'NO_NOTA'#9'15'#9'NO NOTA'#9'F'#9'KONTRAK'
+          'NO_KONTRAK'#9'18'#9'MARKETING'#9'F'#9'KONTRAK'
+          'KD_REKANAN'#9'10'#9'KD'#9'F'#9'REKANAN'
+          'REKANAN'#9'20'#9'NAMA'#9'F'#9'REKANAN'
+          'KD_ITEM'#9'12'#9'KODE'#9'F'#9'ITEM'
+          'NAMA_ITEM'#9'20'#9'NAMA'#9'F'#9'ITEM'
+          'KETERANGAN'#9'25'#9'KETERANGAN'#9'F'#9'ITEM'
+          'QTY1'#9'10'#9'KONTRAK'#9'F'#9'QTY'
+          'QTY2'#9'10'#9'SDH KIRIM'#9'F'#9'QTY'
+          'QTY3'#9'10'#9'KIRIM'#9'F'#9'QTY'
+          'CQTY1'#9'10'#9'SISA'#9'F'#9'QTY')
+        IniAttributes.Enabled = True
+        IniAttributes.SaveToRegistry = True
+        IniAttributes.FileName = 'Pismatex Master'
+        IniAttributes.Delimiter = ';;'
+        IniAttributes.CheckNewFields = True
+        ExportOptions.ExportType = wwgetSYLK
+        ExportOptions.Options = [esoShowHeader, esoShowFooter, esoShowTitle, esoDblQuoteFields, esoBestColFit, esoShowRecordNo, esoShowAlternating]
+        TitleColor = clSkyBlue
+        FixedCols = 0
+        ShowHorzScrollBar = True
+        Align = alClient
+        DataSource = dsQRealisasi
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'MS Sans Serif'
+        Font.Style = []
+        Options = [dgEditing, dgTitles, dgIndicator, dgColumnResize, dgColLines, dgTabs, dgRowSelect, dgConfirmDelete, dgCancelOnExit, dgWordWrap, dgPerfectRowFit, dgShowFooter, dgTrailingEllipsis, dgDblClickColSizing]
+        ParentFont = False
+        ReadOnly = True
+        RowHeightPercent = 225
+        TabOrder = 0
+        TitleAlignment = taCenter
+        TitleFont.Charset = ANSI_CHARSET
+        TitleFont.Color = clWindowText
+        TitleFont.Height = -11
+        TitleFont.Name = 'Lucida Sans'
+        TitleFont.Style = [fsBold]
+        TitleLines = 4
+        TitleButtons = True
+        UseTFields = False
+        OnTitleButtonClick = wwDBGrid1TitleButtonClick
+        OnDblClick = wwDBGrid1DblClick
+        PaintOptions.AlternatingRowColor = clMoneyGreen
+        PaintOptions.ActiveRecordColor = clGreen
+        GroupFieldName = 'NO_NOTA'
+      end
+      object Panel10: TPanel
+        Left = 0
+        Top = 0
+        Width = 1059
+        Height = 52
+        Align = alTop
+        BevelInner = bvLowered
+        Ctl3D = False
+        ParentCtl3D = False
+        TabOrder = 1
+        object GroupBox2: TGroupBox
+          Left = 2
+          Top = 2
+          Width = 143
+          Height = 48
+          Align = alLeft
+          Caption = 'Filter Tahun Order'
+          TabOrder = 0
+          TabStop = True
+          object Etahun: TEdit
+            Left = 10
+            Top = 20
+            Width = 121
+            Height = 19
+            TabOrder = 0
+            Text = '2022'
+          end
+        end
+        object Panel11: TPanel
+          Left = 432
+          Top = 2
+          Width = 568
+          Height = 48
+          Align = alLeft
+          BevelOuter = bvNone
+          TabOrder = 1
+          object CheckBox1: TCheckBox
+            Left = 96
+            Top = 13
+            Width = 129
+            Height = 17
+            Caption = 'Filter transaksi berjalan'
+            TabOrder = 0
+            OnClick = CheckBox1Click
+          end
+          object BitBtn3: TBitBtn
+            Left = 8
+            Top = 12
+            Width = 75
+            Height = 25
+            Caption = 'Filte&r'
+            Default = True
+            ModalResult = 1
+            TabOrder = 1
+            OnClick = BitBtn3Click
+            Glyph.Data = {
+              76010000424D7601000000000000760000002800000020000000100000000100
+              04000000000000010000120B0000120B00001000000000000000000000000000
+              800000800000008080008000000080008000808000007F7F7F00BFBFBF000000
+              FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00555555555555
+              555555555555555555555555555555555555555555FF55555555555559055555
+              55555555577FF5555555555599905555555555557777F5555555555599905555
+              555555557777FF5555555559999905555555555777777F555555559999990555
+              5555557777777FF5555557990599905555555777757777F55555790555599055
+              55557775555777FF5555555555599905555555555557777F5555555555559905
+              555555555555777FF5555555555559905555555555555777FF55555555555579
+              05555555555555777FF5555555555557905555555555555777FF555555555555
+              5990555555555555577755555555555555555555555555555555}
+            NumGlyphs = 2
+          end
+        end
+        object GroupBox3: TGroupBox
+          Left = 145
+          Top = 2
+          Width = 287
+          Height = 48
+          Align = alLeft
+          Caption = 'Filter Tanggal'
+          TabOrder = 2
+          TabStop = True
+          object Label19: TLabel
+            Left = 132
+            Top = 22
+            Width = 24
+            Height = 13
+            Caption = 'S/D'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -11
+            Font.Name = 'MS Sans Serif'
+            Font.Style = [fsBold]
+            ParentFont = False
+          end
+          object vTglAwal2: TwwDBDateTimePicker
+            Left = 8
+            Top = 16
+            Width = 121
+            Height = 24
+            DisableThemes = True
+            CalendarAttributes.Font.Charset = DEFAULT_CHARSET
+            CalendarAttributes.Font.Color = clWindowText
+            CalendarAttributes.Font.Height = -11
+            CalendarAttributes.Font.Name = 'MS Sans Serif'
+            CalendarAttributes.Font.Style = []
+            Color = clGreen
+            Epoch = 1950
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWhite
+            Font.Height = -13
+            Font.Name = 'MS Sans Serif'
+            Font.Style = [fsBold]
+            ParentFont = False
+            ShowButton = True
+            TabOrder = 0
+            DisplayFormat = 'dd mmm yyyy'
+            OnChange = vTglAwal2Change
+          end
+          object vTglAkhir2: TwwDBDateTimePicker
+            Left = 160
+            Top = 16
+            Width = 121
+            Height = 24
+            DisableThemes = True
+            CalendarAttributes.Font.Charset = DEFAULT_CHARSET
+            CalendarAttributes.Font.Color = clWindowText
+            CalendarAttributes.Font.Height = -11
+            CalendarAttributes.Font.Name = 'MS Sans Serif'
+            CalendarAttributes.Font.Style = []
+            Color = clGreen
+            Epoch = 1950
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWhite
+            Font.Height = -13
+            Font.Name = 'MS Sans Serif'
+            Font.Style = [fsBold]
+            ParentFont = False
+            ShowButton = True
+            TabOrder = 1
+            DisplayFormat = 'dd mmm yyyy'
+            OnChange = vTglAkhir2Change
+          end
+        end
+      end
+    end
   end
   object QTransaksi: TOracleDataSet
     SQL.Strings = (
@@ -9534,8 +9742,8 @@ object ValidasiSJWasteFrm: TValidasiSJWasteFrm
     AfterDelete = QTransaksiAfterDelete
     AfterScroll = QBrowseAfterScroll
     OnNewRecord = QTransaksiNewRecord
-    Left = 548
-    Top = 8
+    Left = 468
+    Top = 16
     object QTransaksiKD_TRANSAKSI: TStringField
       FieldName = 'KD_TRANSAKSI'
       Size = 3
@@ -9601,7 +9809,7 @@ object ValidasiSJWasteFrm: TValidasiSJWasteFrm
     end
     object QTransaksiKD_REKANAN: TStringField
       FieldName = 'KD_REKANAN'
-      Size = 5
+      Size = 7
     end
     object QTransaksiREKANAN: TStringField
       FieldName = 'REKANAN'
@@ -9618,8 +9826,8 @@ object ValidasiSJWasteFrm: TValidasiSJWasteFrm
   end
   object dsQTransaksi: TwwDataSource
     DataSet = QTransaksi
-    Left = 436
-    Top = 65
+    Left = 644
+    Top = 105
   end
   object QDetail: TOracleDataSet
     SQL.Strings = (
@@ -9666,8 +9874,8 @@ object ValidasiSJWasteFrm: TValidasiSJWasteFrm
     BeforeDelete = QTransaksiBeforeEdit
     AfterScroll = QBrowseAfterScroll
     OnNewRecord = QDetailNewRecord
-    Left = 308
-    Top = 81
+    Left = 412
+    Top = 17
     object QDetailKD_ITEM: TStringField
       FieldName = 'KD_ITEM'
       Size = 16
@@ -9779,8 +9987,8 @@ object ValidasiSJWasteFrm: TValidasiSJWasteFrm
   end
   object dsQDetail: TwwDataSource
     DataSet = QDetail
-    Left = 388
-    Top = 49
+    Left = 852
+    Top = 137
   end
   object QJnsTransaksi: TOracleDataSet
     SQL.Strings = (
@@ -9803,8 +10011,8 @@ object ValidasiSJWasteFrm: TValidasiSJWasteFrm
       00004449535452494255534901000000000007000000444F435F49534F010000
       000000}
     Session = DMFrm.OS
-    Left = 333
-    Top = 3
+    Left = 613
+    Top = 11
     object QJnsTransaksiKD_TRANSAKSI: TStringField
       FieldName = 'KD_TRANSAKSI'
       Size = 3
@@ -9872,8 +10080,8 @@ object ValidasiSJWasteFrm: TValidasiSJWasteFrm
   end
   object dsQJnsTransaksi: TwwDataSource
     DataSet = QJnsTransaksi
-    Left = 472
-    Top = 8
+    Left = 672
+    Top = 24
   end
   object rvdTTD: TwwRecordViewDialog
     DataSource = dsQTransaksi
@@ -9901,8 +10109,8 @@ object ValidasiSJWasteFrm: TValidasiSJWasteFrm
       'TTD3'#9'50'#9'Ttd 3, Jab 3'#9'F'
       'TTD4'#9'50'#9'Ttd 4, Jab 4'#9'F')
     NavigatorFlat = True
-    Left = 616
-    Top = 40
+    Left = 848
+    Top = 8
   end
   object QBrowse: TOracleDataSet
     SQL.Strings = (
@@ -9935,8 +10143,8 @@ object ValidasiSJWasteFrm: TValidasiSJWasteFrm
     Session = DMFrm.OS
     BeforeOpen = QBrowseBeforeOpen
     AfterScroll = QBrowseAfterScroll
-    Left = 260
-    Top = 25
+    Left = 508
+    Top = 1
     object QBrowseKD_TRANSAKSI: TStringField
       FieldName = 'KD_TRANSAKSI'
       Size = 3
@@ -9999,11 +10207,19 @@ object ValidasiSJWasteFrm: TValidasiSJWasteFrm
       FieldName = 'JNS_KOREKSI'
       Size = 30
     end
+    object QBrowseKD_REKANAN: TStringField
+      FieldName = 'KD_REKANAN'
+      Size = 7
+    end
+    object QBrowseREKANAN: TStringField
+      FieldName = 'REKANAN'
+      Size = 255
+    end
   end
   object dsQBrowse: TwwDataSource
     DataSet = QBrowse
-    Left = 540
-    Top = 73
+    Left = 556
+    Top = 17
   end
   object QLookLokasi: TOracleDataSet
     SQL.Strings = (
@@ -10018,8 +10234,8 @@ object ValidasiSJWasteFrm: TValidasiSJWasteFrm
       490100000000000A0000005355425F4C4F4B415349010000000000}
     Session = DMFrm.OS
     BeforeOpen = QLookLokasiBeforeOpen
-    Left = 356
-    Top = 393
+    Left = 772
+    Top = 377
     object QLookLokasiSUB_LOKASI: TStringField
       DisplayLabel = 'LOKASI'
       DisplayWidth = 30
@@ -10070,16 +10286,16 @@ object ValidasiSJWasteFrm: TValidasiSJWasteFrm
       0300000003000000110000003A4E4F5F5245475F50454D414B4149414E030000
       000000000000000000080000003A4E4F5F4E4F54410500000000000000000000
       00080000003A54414E4747414C0C0000000000000000000000}
-    Left = 204
-    Top = 65
+    Left = 940
+    Top = 241
   end
   object QJnsKoreksi: TOracleDataSet
     SQL.Strings = (
       'select * from pmtx01.jns_koreksi')
     QBEDefinition.QBEFieldDefs = {04000000010000000B0000004A4E535F4B4F52454B5349010000000000}
     Session = DMFrm.OS
-    Left = 492
-    Top = 49
+    Left = 796
+    Top = 121
     object QJnsKoreksiJNS_KOREKSI: TStringField
       FieldName = 'JNS_KOREKSI'
       Size = 12
@@ -10100,8 +10316,8 @@ object ValidasiSJWasteFrm: TValidasiSJWasteFrm
       0400000003000000040000004B4F4445010000000000050000004D4553494E01
       0000000000050000004A454E4953010000000000}
     Session = DMFrm.OS
-    Left = 564
-    Top = 353
+    Left = 980
+    Top = 337
     object QLookMesinKODE: TStringField
       DisplayWidth = 6
       FieldName = 'KODE'
@@ -10129,8 +10345,8 @@ object ValidasiSJWasteFrm: TValidasiSJWasteFrm
     Variables.Data = {
       0300000001000000110000003A4E4F5F5245475F50454D414B4149414E030000
       000000000000000000}
-    Left = 404
-    Top = 377
+    Left = 820
+    Top = 361
   end
   object QSuplier: TOracleDataSet
     SQL.Strings = (
@@ -10153,8 +10369,8 @@ object ValidasiSJWasteFrm: TValidasiSJWasteFrm
     QueryAllRecords = False
     CountAllRecords = True
     Session = DMFrm.OS
-    Left = 812
-    Top = 33
+    Left = 956
+    Top = 9
     object QSuplierKD_REKANAN: TStringField
       DisplayLabel = 'KODE'
       DisplayWidth = 8
@@ -10227,8 +10443,8 @@ object ValidasiSJWasteFrm: TValidasiSJWasteFrm
       49010000000000}
     Session = DMFrm.OS
     BeforeOpen = QLookItemBeforeOpen
-    Left = 388
-    Top = 257
+    Left = 804
+    Top = 241
     object QLookItemNAMA_ITEM: TStringField
       DisplayWidth = 40
       FieldName = 'NAMA_ITEM'
@@ -10297,8 +10513,8 @@ object ValidasiSJWasteFrm: TValidasiSJWasteFrm
     QueryAllRecords = False
     CountAllRecords = True
     Session = DMFrm.OS
-    Left = 204
-    Top = 9
+    Left = 892
+    Top = 233
     object QAmbilKontrakNO_NOTA: TStringField
       FieldName = 'NO_NOTA'
       Required = True
@@ -10325,5 +10541,91 @@ object ValidasiSJWasteFrm: TValidasiSJWasteFrm
     object QSubTotalSUBTOTAL: TFloatField
       FieldName = 'SUBTOTAL'
     end
+  end
+  object dsQRealisasi: TwwDataSource
+    DataSet = QRealisasi
+    Left = 764
+    Top = 65
+  end
+  object QRealisasi: TOracleDataSet
+    SQL.Strings = (
+      'select * from pmtx02.temp_resume_jual_waste')
+    QBEDefinition.QBEFieldDefs = {
+      040000000A000000070000004E4F5F4E4F5441010000000000070000004B445F
+      4954454D010000000000090000004E414D415F4954454D0100000000000A0000
+      004B445F52454B414E414E0100000000000700000052454B414E414E01000000
+      00000A0000004E4F5F4B4F4E5452414B0100000000000A0000004B4554455241
+      4E47414E01000000000004000000515459310100000000000400000051545932
+      0100000000000400000051545933010000000000}
+    QueryAllRecords = False
+    CountAllRecords = True
+    Session = DMFrm.OS
+    AfterScroll = QRealisasiAfterScroll
+    OnCalcFields = QRealisasiCalcFields
+    OnFilterRecord = QRealisasiFilterRecord
+    Left = 692
+    Top = 73
+    object QRealisasiNO_NOTA: TStringField
+      FieldName = 'NO_NOTA'
+      Size = 15
+    end
+    object QRealisasiNO_KONTRAK: TStringField
+      FieldName = 'NO_KONTRAK'
+      Size = 128
+    end
+    object QRealisasiKD_REKANAN: TStringField
+      FieldName = 'KD_REKANAN'
+      Size = 50
+    end
+    object QRealisasiREKANAN: TStringField
+      FieldName = 'REKANAN'
+      Size = 128
+    end
+    object QRealisasiKD_ITEM: TStringField
+      FieldName = 'KD_ITEM'
+      Size = 12
+    end
+    object QRealisasiNAMA_ITEM: TStringField
+      FieldName = 'NAMA_ITEM'
+      Size = 64
+    end
+    object QRealisasiKETERANGAN: TStringField
+      FieldName = 'KETERANGAN'
+      Size = 128
+    end
+    object QRealisasiQTY1: TFloatField
+      FieldName = 'QTY1'
+      DisplayFormat = '#,##0.000;(#,##0.000);-'
+    end
+    object QRealisasiQTY2: TFloatField
+      FieldName = 'QTY2'
+      DisplayFormat = '#,##0.000;(#,##0.000);-'
+    end
+    object QRealisasiQTY3: TFloatField
+      FieldName = 'QTY3'
+      DisplayFormat = '#,##0.000;(#,##0.000);-'
+    end
+    object QRealisasiCQTY1: TFloatField
+      FieldKind = fkCalculated
+      FieldName = 'CQTY1'
+      DisplayFormat = '#,##0.000;(#,##0.000);-'
+      Calculated = True
+    end
+  end
+  object QProcRealisasi: TOracleQuery
+    SQL.Strings = (
+      'begin'
+      
+        '  pmtx02.proc_temp_penjualan_waste(:ptgl_awal, :ptgl_akhir, :pth' +
+        'n);'
+      'end;')
+    Session = DMFrm.OS
+    Variables.Data = {
+      03000000030000000A0000003A5054474C5F4157414C0C000000000000000000
+      00000B0000003A5054474C5F414B4849520C0000000000000000000000050000
+      003A5054484E0500000005000000323032320000000000}
+    Cursor = crSQLWait
+    Left = 700
+    Top = 273
   end
 end

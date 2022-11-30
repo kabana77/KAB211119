@@ -429,6 +429,34 @@ type
     QRShape1: TQRShape;
     QRGroup3: TQRGroup;
     QBrowseJNS_KOREKSI: TStringField;
+    TabSheet3: TTabSheet;
+    wwDBGrid4: TwwDBGrid;
+    Panel10: TPanel;
+    GroupBox2: TGroupBox;
+    Panel11: TPanel;
+    CheckBox1: TCheckBox;
+    BitBtn3: TBitBtn;
+    dsQRealisasi: TwwDataSource;
+    QRealisasi: TOracleDataSet;
+    QRealisasiNO_NOTA: TStringField;
+    QRealisasiNO_KONTRAK: TStringField;
+    QRealisasiKD_REKANAN: TStringField;
+    QRealisasiREKANAN: TStringField;
+    QRealisasiKD_ITEM: TStringField;
+    QRealisasiNAMA_ITEM: TStringField;
+    QRealisasiKETERANGAN: TStringField;
+    QRealisasiQTY1: TFloatField;
+    QRealisasiQTY2: TFloatField;
+    QRealisasiQTY3: TFloatField;
+    GroupBox3: TGroupBox;
+    Label19: TLabel;
+    vTglAwal2: TwwDBDateTimePicker;
+    vTglAkhir2: TwwDBDateTimePicker;
+    QProcRealisasi: TOracleQuery;
+    QRealisasiCQTY1: TFloatField;
+    QBrowseKD_REKANAN: TStringField;
+    QBrowseREKANAN: TStringField;
+    Etahun: TEdit;
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure wwDBGrid1TitleButtonClick(Sender: TObject;
       AFieldName: String);
@@ -509,6 +537,14 @@ type
     procedure LookLOTEnter(Sender: TObject);
     procedure QRBand10BeforePrint(Sender: TQRCustomBand;
       var PrintBand: Boolean);
+    procedure vTglAwal2Change(Sender: TObject);
+    procedure vTglAkhir2Change(Sender: TObject);
+    procedure BitBtn3Click(Sender: TObject);
+    procedure QRealisasiAfterScroll(DataSet: TDataSet);
+    procedure QRealisasiCalcFields(DataSet: TDataSet);
+    procedure CheckBox1Click(Sender: TObject);
+    procedure QRealisasiFilterRecord(DataSet: TDataSet;
+      var Accept: Boolean);
   private
     { Private declarations }
     vfilter, vorder, vfilter2 : String;
@@ -845,6 +881,9 @@ procedure TValidasiSJWasteFrm.BitBtn1Click(Sender: TObject);
 var
   i : word;
   vpertama : boolean;
+
+  x : Integer;
+  t1 : REAL;
 begin
   vpertama:=True;
   if cbTanggal.Checked then
@@ -897,11 +936,23 @@ begin
   QBrowse.Open;
   QBrowse.EnableControls;
 
+  t1:=0;
+  x:=0;
+  while not QBrowse.Eof do
+  begin
+    inc(x);
+    t1:=t1+QBrowseQTY.AsFloat;
+    QBrowse.Next;
+  end;
+  wwDBGrid1.ColumnByName('QTY').FooterValue:=FormatFloat('#,##0.000;(#,##0.000);-',t1);
+
 end;
 
 procedure TValidasiSJWasteFrm.FormShow(Sender: TObject);
 begin
   VTglAwal.Date:=Trunc(DMFrm.QDateTimeVNOW.AsDateTime);
+  VTglAwal2.Date:=Trunc(DMFrm.QDateTimeVNOW.AsDateTime);
+  Etahun.Text:='2022';
   QJnsTransaksi.Open;
 end;
 
@@ -1468,6 +1519,73 @@ begin
   end
     else
     QRLTitle2.Caption:='DRAFT';
+end;
+
+procedure TValidasiSJWasteFrm.vTglAwal2Change(Sender: TObject);
+begin
+  vTglAkhir2.Date:=Trunc(EndOfTheMonth(VTglAwal2.Date));
+end;
+
+procedure TValidasiSJWasteFrm.vTglAkhir2Change(Sender: TObject);
+begin
+  if VTglAwal2.Date>vTglAkhir2.Date then
+  begin
+      ShowMessage('Tanggal Akhir harus LEBIH BESAR dari Tanggal Awal !');
+      vTglAkhir2.Date:=VTglAwal2.Date;
+  end;
+end;
+
+procedure TValidasiSJWasteFrm.BitBtn3Click(Sender: TObject);
+var
+  x : Integer;
+  t1, t2, t3 : REAL;
+begin
+  QRealisasi.Close;
+  QProcRealisasi.SetVariable('ptgl_awal', vTglAwal2.Date);
+  QProcRealisasi.SetVariable('ptgl_akhir', vTglAwal2.Date);
+  QProcRealisasi.SetVariable('pthn', Etahun.Text);
+  QProcRealisasi.Execute;
+  QRealisasi.Open;
+
+  t1:=0;
+  t2:=0;
+  t3:=0;
+
+  x:=0;
+  while not QRealisasi.Eof do
+  begin
+    inc(x);
+    t1:=t1+QRealisasiQTY1.AsFloat;
+    t2:=t2+QRealisasiQTY2.AsFloat;
+    t3:=t3+QRealisasiQTY3.AsFloat;
+    QRealisasi.Next;
+  end;
+  wwDBGrid4.ColumnByName('QTY1').FooterValue:=FormatFloat('#,##0.000;(#,##0.000);-',t1);
+  wwDBGrid4.ColumnByName('QTY2').FooterValue:=FormatFloat('#,##0.000;(#,##0.000);-',t2);
+  wwDBGrid4.ColumnByName('QTY3').FooterValue:=FormatFloat('#,##0.000;(#,##0.000);-',t3);
+  wwDBGrid4.ColumnByName('CQTY1').FooterValue:=FormatFloat('#,##0.000;(#,##0.000);-',t1-(t2+t3));
+
+end;
+
+procedure TValidasiSJWasteFrm.QRealisasiAfterScroll(DataSet: TDataSet);
+begin
+  LRecords.Caption:='Data ke '+IntToStr(DataSet.RecNo)+' dari '+IntToStr(DataSet.RecordCount)+' data';
+end;
+
+procedure TValidasiSJWasteFrm.QRealisasiCalcFields(DataSet: TDataSet);
+begin
+  QRealisasiCQTY1.AsFloat:=QRealisasiQTY1.AsFloat-(QRealisasiQTY2.AsFloat+QRealisasiQTY3.AsFloat);
+end;
+
+procedure TValidasiSJWasteFrm.CheckBox1Click(Sender: TObject);
+begin
+  QRealisasi.Filtered:=CheckBox1.Checked;
+end;
+
+procedure TValidasiSJWasteFrm.QRealisasiFilterRecord(DataSet: TDataSet;
+  var Accept: Boolean);
+begin
+      Accept:=(QRealisasiQTY3.AsFloat<>0) or ((QRealisasiQTY1.AsFloat)-(QRealisasiQTY2.AsFloat+QRealisasiQTY3.AsFloat)<>0);
 end;
 
 end.
