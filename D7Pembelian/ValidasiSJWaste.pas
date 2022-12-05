@@ -545,6 +545,8 @@ type
     procedure CheckBox1Click(Sender: TObject);
     procedure QRealisasiFilterRecord(DataSet: TDataSet;
       var Accept: Boolean);
+    procedure wwDBGrid4TitleButtonClick(Sender: TObject;
+      AFieldName: String);
   private
     { Private declarations }
     vfilter, vorder, vfilter2 : String;
@@ -1199,6 +1201,7 @@ end;
 
 procedure TValidasiSJWasteFrm.BtnExportClick(Sender: TObject);
 begin
+ {=========BROWSE=================}
   if QBrowse.Active then
   begin
      DMFrm.SaveDialog1.DefaultExt:='XLK';
@@ -1218,6 +1221,29 @@ begin
   end
   else
     ShowMessage('Tabel belum di-OPEN !');
+
+ {=========REALISASI=================}
+
+  if QRealisasi.Active then
+  begin
+     DMFrm.SaveDialog1.DefaultExt:='XLK';
+     DMFrm.SaveDialog1.Filter:='Excel files (*.XLK)|*.XLK';
+     DMFrm.SaveDialog1.FileName:=QJnsTransaksiNAMA_TRANSAKSI.AsString;
+     wwDBGrid4.ExportOptions.TitleName:=QJnsTransaksiNAMA_TRANSAKSI.AsString;
+       if DMFrm.SaveDialog1.Execute then
+       begin
+         try
+         wwDBGrid4.ExportOptions.FileName:=DMFrm.SaveDialog1.FileName;
+         wwDBGrid4.ExportOptions.Save;
+         ShowMessage('Simpan Sukses !');
+         except
+         ShowMessage('Simpan Gagal !');
+         end;
+       end;
+  end
+  else
+    ShowMessage('Tabel belum di-OPEN !');
+
 end;
 
 procedure TValidasiSJWasteFrm.DBText5Click(Sender: TObject);
@@ -1545,7 +1571,17 @@ begin
   QProcRealisasi.SetVariable('ptgl_akhir', vTglAwal2.Date);
   QProcRealisasi.SetVariable('pthn', Etahun.Text);
   QProcRealisasi.Execute;
+
+  if QRealisasi.Active then
+     vorder:=' order by '+wwDBGrid4.Columns[0].FieldName
+  else
+     vorder:=' order by no_nota';
+
+  QRealisasi.DisableControls;
+  QRealisasi.Close;
+  QRealisasi.SetVariable('myparam',vorder);
   QRealisasi.Open;
+  QRealisasi.EnableControls;
 
   t1:=0;
   t2:=0;
@@ -1586,6 +1622,30 @@ procedure TValidasiSJWasteFrm.QRealisasiFilterRecord(DataSet: TDataSet;
   var Accept: Boolean);
 begin
       Accept:=(QRealisasiQTY3.AsFloat<>0) or ((QRealisasiQTY1.AsFloat)-(QRealisasiQTY2.AsFloat+QRealisasiQTY3.AsFloat)<>0);
+end;
+
+procedure TValidasiSJWasteFrm.wwDBGrid4TitleButtonClick(Sender: TObject;
+  AFieldName: String);
+begin
+  if ((Sender as TwwDBGrid).ColumnByName(AFieldName).FieldName<>'') then
+  begin
+     if (Sender as TwwDBGrid).DataSource.DataSet.FieldByName(AFieldName).FieldKind=fkData then
+        begin
+          if vorder=' ASC' then
+              vorder:=' DESC'
+          else
+              vorder:=' ASC';
+          (Sender as TwwDBGrid).DataSource.DataSet.DisableControls;
+          (Sender as TwwDBGrid).DataSource.DataSet.Close;
+          ((Sender as TwwDBGrid).DataSource.DataSet as TOracleDataSet).SetVariable('myparam',' order by '+(Sender as TwwDBGrid).ColumnByName(AFieldName).FieldName+vorder);
+          (Sender as TwwDBGrid).DataSource.DataSet.Open;
+          (Sender as TwwDBGrid).DataSource.DataSet.EnableControls;
+        end
+        else
+          ShowMessage('Maaf, tidak bisa diurutkan menurut '+AFieldName+' !');
+  end
+  else
+  ShowMessage('Maaf, tidak bisa diurutkan menurut '+AFieldName+' !');
 end;
 
 end.

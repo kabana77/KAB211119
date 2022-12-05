@@ -1,5 +1,5 @@
 object ValidasiSJWasteFrm: TValidasiSJWasteFrm
-  Left = 548
+  Left = 549
   Top = 234
   Width = 1083
   Height = 567
@@ -9554,7 +9554,7 @@ object ValidasiSJWasteFrm: TValidasiSJWasteFrm
         TitleLines = 4
         TitleButtons = True
         UseTFields = False
-        OnTitleButtonClick = wwDBGrid1TitleButtonClick
+        OnTitleButtonClick = wwDBGrid4TitleButtonClick
         OnDblClick = wwDBGrid1DblClick
         PaintOptions.AlternatingRowColor = clMoneyGreen
         PaintOptions.ActiveRecordColor = clGreen
@@ -10549,7 +10549,10 @@ object ValidasiSJWasteFrm: TValidasiSJWasteFrm
   end
   object QRealisasi: TOracleDataSet
     SQL.Strings = (
-      'select * from pmtx02.temp_resume_jual_waste')
+      'select * from pmtx02.temp_resume_jual_waste'
+      ':myparam')
+    Variables.Data = {
+      0300000001000000080000003A4D59504152414D010000000000000000000000}
     QBEDefinition.QBEFieldDefs = {
       040000000A000000070000004E4F5F4E4F5441010000000000070000004B445F
       4954454D010000000000090000004E414D415F4954454D0100000000000A0000
