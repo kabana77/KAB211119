@@ -924,8 +924,8 @@ object DMFrm: TDMFrm
       5F4241470100000000000A00000049445F5355425F424147010000000000}
     Cursor = crSQLWait
     Session = OS
-    Left = 252
-    Top = 249
+    Left = 188
+    Top = 265
     object QLookSubBagianKODE: TStringField
       FieldName = 'KODE'
       Size = 6
@@ -997,8 +997,8 @@ object DMFrm: TDMFrm
     Cursor = crSQLWait
     Session = OS
     BeforeOpen = QSuplierBeforeOpen
-    Left = 360
-    Top = 248
+    Left = 424
+    Top = 240
     object QSuplierNAMA_REKANAN: TStringField
       DisplayWidth = 40
       FieldName = 'NAMA_REKANAN'
@@ -1313,15 +1313,15 @@ object DMFrm: TDMFrm
     HasilKonversi = 'Nol Rupiah'
     Bahasa = Indonesia
     Satuan = 'Rupiah'
-    Left = 256
-    Top = 152
+    Left = 248
+    Top = 144
   end
   object MyUSD: TMyKonversi
     Nilai = 11345.000000000000000000
     HasilKonversi = 'Eleven Thousand Three Hundred and Fourty Five US Dollar'
     Bahasa = Inggris
     Satuan = 'US Dollar'
-    Left = 256
+    Left = 248
     Top = 200
   end
   object QJnsKebutuhan: TOracleDataSet
@@ -1652,8 +1652,8 @@ object DMFrm: TDMFrm
       0000005233010000000000}
     Cursor = crSQLWait
     Session = OS
-    Left = 312
-    Top = 232
+    Left = 384
+    Top = 264
     object QBBKD_ITEM: TStringField
       DisplayLabel = 'KODE'
       DisplayWidth = 8
@@ -1713,8 +1713,8 @@ object DMFrm: TDMFrm
     HasilKonversi = 'Fiveteen Thousand Six Hundred EUR'
     Bahasa = Inggris
     Satuan = 'EUR'
-    Left = 312
-    Top = 176
+    Left = 296
+    Top = 144
   end
   object QUserAktif: TOracleDataSet
     SQL.Strings = (
@@ -1999,8 +1999,8 @@ object DMFrm: TDMFrm
       'nd Fiveteen YEN'
     Bahasa = Inggris
     Satuan = 'YEN'
-    Left = 248
-    Top = 408
+    Left = 296
+    Top = 200
   end
   object QLookBudgetKAS: TOracleDataSet
     SQL.Strings = (
@@ -2462,5 +2462,12 @@ object DMFrm: TDMFrm
       FieldName = 'HAK_POST'
       Size = 1
     end
+  end
+  object MyCHF: TMyKonversi
+    HasilKonversi = 'Null Swiss Franc'
+    Bahasa = Inggris
+    Satuan = 'Swiss Franc'
+    Left = 248
+    Top = 248
   end
 end

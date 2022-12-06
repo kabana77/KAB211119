@@ -314,6 +314,7 @@ type
     QSqlHAK_LIHAT: TStringField;
     QSqlHAK_INPUT: TStringField;
     QSqlHAK_POST: TStringField;
+    MyCHF: TMyKonversi;
     //OSLocal: TOracleSession;
     procedure DataModuleCreate(Sender: TObject);
     procedure DataModuleDestroy(Sender: TObject);

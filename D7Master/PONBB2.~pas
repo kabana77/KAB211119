@@ -2775,29 +2775,30 @@ QRLTOTX.Caption:=FormatFloat('#,##0.0000;(#,##0.0000)',vdpp+vppn);
   end;
 
  if QTransaksiMU.AsString='IDR' then
-  begin
+ begin
      DMFrm.MyRupiah.Nilai:=vtotal;
      QRLTerbilangX.Caption:='#'+DMFrm.MyRupiah.HasilKonversi+'#';
-  end
-  else if QTransaksiMU.AsString='USD' then
-  begin
-     DMFrm.MyUSD.Nilai:=vtotal;
-     QRLTerbilangX.Caption:='#'+DMFrm.MyUSD.HasilKonversi+'#';
-      end
-     else if QTransaksiMU.AsString='EUR' then
-  begin
-     DMFrm.MyEUR.Nilai:=vtotal;
-     QRLTerbilangX.Caption:='#'+DMFrm.MyEUR.HasilKonversi+'#';
-
-
-  end
-  else if QTransaksiMU.AsString='YEN' then
-  begin
-     DMFrm.MyYEN.Nilai:=vtotal;
-     QRLTerbilangX.Caption:='#'+DMFrm.MyYEN.HasilKonversi+'#';
-
-
-  end;
+ end
+ else if QTransaksiMU.AsString='USD' then
+ begin
+    DMFrm.MyUSD.Nilai:=vtotal;
+    QRLTerbilangX.Caption:='#'+DMFrm.MyUSD.HasilKonversi+'#';
+ end
+ else if QTransaksiMU.AsString='EUR' then
+ begin
+   DMFrm.MyEUR.Nilai:=vtotal;
+   QRLTerbilangX.Caption:='#'+DMFrm.MyEUR.HasilKonversi+'#';
+ end
+ else if QTransaksiMU.AsString='YEN' then
+ begin
+   DMFrm.MyYEN.Nilai:=vtotal;
+   QRLTerbilangX.Caption:='#'+DMFrm.MyYEN.HasilKonversi+'#';
+ end;
+ else if QTransaksiMU.AsString='CHF' then
+ begin
+   DMFrm.MyCHF.Nilai:=vtotal;
+   QRLTerbilangX.Caption:='#'+DMFrm.MyCHF.HasilKonversi+'#';
+ end;
 
 end;
 
