@@ -860,7 +860,7 @@ procedure TValidasiBonNBBFrm.TitleBand2BeforePrint(Sender: TQRCustomBand;
 begin
   if QTransaksiISPOST.AsString='1' then
   begin
-    if QTransaksiJNS_KOREKSI.AsString<>'' then
+    if (QTransaksiJNS_KOREKSI.AsString<>'-') then
        QRLTitle2.Caption:=UpperCase(QTransaksiJNS_KOREKSI.AsString)
     else
        QRLTitle2.Caption:=UpperCase(QJnsTransaksiNAMA_TRANSAKSI.AsString);
@@ -1193,7 +1193,7 @@ procedure TValidasiBonNBBFrm.QRBand3BeforePrint(Sender: TQRCustomBand;
 begin
   if QTransaksiISPOST.AsString='1' then
   begin
-    if QTransaksiJNS_KOREKSI.AsString<>'' then
+    if (QTransaksiJNS_KOREKSI.AsString<>'-') then
        QRLabel20.Caption:=UpperCase(QTransaksiJNS_KOREKSI.AsString)
     else
        QRLabel20.Caption:=UpperCase(QJnsTransaksiNAMA_TRANSAKSI.AsString);
