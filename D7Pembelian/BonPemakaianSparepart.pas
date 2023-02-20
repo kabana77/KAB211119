@@ -292,6 +292,7 @@ type
     QLookSubBagianKD_DEPT: TStringField;
     QRLabel20: TQRLabel;
     QRDBText15: TQRDBText;
+    QBrowseNO_REFF: TStringField;
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure FormCreate(Sender: TObject);
     procedure wwDBGrid1TitleButtonClick(Sender: TObject;
@@ -374,6 +375,7 @@ type
     procedure LookBudgetEnter(Sender: TObject);
     procedure LookBudgetCloseUp(Sender: TObject; LookupTable,
       FillTable: TDataSet; modified: Boolean);
+    procedure QTransaksiNO_REG_BONChange(Sender: TField);
   private
     { Private declarations }
     vfilter, vorder, vfilter2, idsubbag  : String;
@@ -476,7 +478,8 @@ end;
 procedure TBonPemakaianSparepartFrm.QTransaksiAfterPost(DataSet: TDataSet);
 begin
   wwDBGrid2.SetFocus;
-  TabSheet1.TabVisible:=QTransaksiISPOST.AsString='1';
+  //TabSheet1.TabVisible:=QTransaksiISPOST.AsString='1';
+  TabSheet1.TabVisible:=True;
 end;
 
 procedure TBonPemakaianSparepartFrm.wwDBGrid2Enter(Sender: TObject);
@@ -512,9 +515,8 @@ end;
 
 procedure TBonPemakaianSparepartFrm.QTransaksiBeforePost(DataSet: TDataSet);
 begin
-  if QTransaksiNO_NOTA.AsString<>'' then
-     if (FormatDateTime('YYMM',QTransaksiTANGGAL.AsDateTime)<>copy(QTransaksiNO_NOTA.AsString,5,4)) then
-       QTransaksiNO_NOTA.AsString:='';
+  if (QTransaksiNO_NOTA.AsString<>'') then
+      if (FormatDateTime('YYMM',QTransaksiTANGGAL.AsDateTime)<>copy(QTransaksiNO_NOTA.AsString,5,4)) then QTransaksiNO_NOTA.AsString:='#'+QTransaksiNO_REG_BON.AsString;
   if QTransaksiISPOST.AsString='1' then
   begin
       QTransaksiSTATUS.AsString:='OPEN';
@@ -1239,6 +1241,12 @@ begin
   QDetailID_SUB_BAG.AsString := idsubbag;
 {MAA}
 
+end;
+
+procedure TBonPemakaianSparepartFrm.QTransaksiNO_REG_BONChange(
+  Sender: TField);
+begin
+  QTransaksiNO_NOTA.AsString:='#'+QTransaksiNO_REG_BON.AsString;
 end;
 
 end.

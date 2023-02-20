@@ -234,7 +234,7 @@ object BonPemakaianSparepartFrm: TBonPemakaianSparepartFrm
           object QRDBText43: TQRDBText
             Left = 590
             Top = 19
-            Width = 63
+            Width = 79
             Height = 21
             Frame.Color = clBlack
             Frame.DrawTop = False
@@ -245,7 +245,7 @@ object BonPemakaianSparepartFrm: TBonPemakaianSparepartFrm
               55.562500000000000000
               1561.041666666667000000
               50.270833333333330000
-              166.687500000000000000)
+              209.020833333333300000)
             Alignment = taLeftJustify
             AlignToBand = False
             AutoSize = True
@@ -276,7 +276,7 @@ object BonPemakaianSparepartFrm: TBonPemakaianSparepartFrm
             Size.Values = (
               37.041666666666670000
               1410.229166666667000000
-              58.208333333333330000
+              58.208333333333340000
               132.291666666666700000)
             Alignment = taRightJustify
             AlignToBand = False
@@ -1195,9 +1195,9 @@ object BonPemakaianSparepartFrm: TBonPemakaianSparepartFrm
             1928.812500000000000000)
           BandType = rbTitle
           object QRLTitle2: TQRLabel
-            Left = 305
+            Left = 291
             Top = 9
-            Width = 118
+            Width = 146
             Height = 21
             Frame.Color = clBlack
             Frame.DrawTop = False
@@ -1206,9 +1206,9 @@ object BonPemakaianSparepartFrm: TBonPemakaianSparepartFrm
             Frame.DrawRight = False
             Size.Values = (
               55.562500000000000000
-              806.979166666666700000
+              769.937500000000000000
               23.812500000000000000
-              312.208333333333300000)
+              386.291666666666700000)
             Alignment = taCenter
             AlignToBand = True
             AutoSize = True
@@ -1237,7 +1237,7 @@ object BonPemakaianSparepartFrm: TBonPemakaianSparepartFrm
             Frame.DrawRight = False
             Size.Values = (
               37.041666666666670000
-              870.479166666666700000
+              870.479166666666600000
               87.312500000000000000
               185.208333333333300000)
             Alignment = taCenter
@@ -1349,7 +1349,7 @@ object BonPemakaianSparepartFrm: TBonPemakaianSparepartFrm
             Size.Values = (
               37.041666666666670000
               1420.812500000000000000
-              68.791666666666670000
+              68.791666666666660000
               121.708333333333300000)
             Alignment = taRightJustify
             AlignToBand = False
@@ -1429,7 +1429,7 @@ object BonPemakaianSparepartFrm: TBonPemakaianSparepartFrm
           ForceNewColumn = False
           ForceNewPage = False
           Size.Values = (
-            84.666666666666670000
+            84.666666666666660000
             1928.812500000000000000)
           BandType = rbColumnHeader
           object QRLabel11: TQRLabel
@@ -1444,7 +1444,7 @@ object BonPemakaianSparepartFrm: TBonPemakaianSparepartFrm
             Frame.DrawRight = False
             Size.Values = (
               37.041666666666670000
-              84.666666666666670000
+              84.666666666666680000
               42.333333333333330000
               193.145833333333300000)
             Alignment = taLeftJustify
@@ -1663,7 +1663,7 @@ object BonPemakaianSparepartFrm: TBonPemakaianSparepartFrm
               37.041666666666670000
               1492.250000000000000000
               42.333333333333330000
-              84.666666666666670000)
+              84.666666666666680000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = False
@@ -1800,7 +1800,7 @@ object BonPemakaianSparepartFrm: TBonPemakaianSparepartFrm
             Frame.DrawRight = False
             Size.Values = (
               37.041666666666670000
-              653.520833333333300000
+              653.520833333333200000
               0.000000000000000000
               410.104166666666700000)
             Alignment = taLeftJustify
@@ -1962,7 +1962,7 @@ object BonPemakaianSparepartFrm: TBonPemakaianSparepartFrm
             Frame.DrawRight = False
             Size.Values = (
               37.041666666666670000
-              84.666666666666670000
+              84.666666666666680000
               0.000000000000000000
               193.145833333333300000)
             Alignment = taLeftJustify
@@ -2060,7 +2060,7 @@ object BonPemakaianSparepartFrm: TBonPemakaianSparepartFrm
               37.041666666666670000
               1497.541666666667000000
               21.166666666666670000
-              76.729166666666670000)
+              76.729166666666660000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -2092,7 +2092,7 @@ object BonPemakaianSparepartFrm: TBonPemakaianSparepartFrm
               37.041666666666670000
               1497.541666666667000000
               169.333333333333300000
-              76.729166666666670000)
+              76.729166666666660000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -2124,7 +2124,7 @@ object BonPemakaianSparepartFrm: TBonPemakaianSparepartFrm
               37.041666666666670000
               1137.708333333333000000
               21.166666666666670000
-              76.729166666666670000)
+              76.729166666666660000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -2156,7 +2156,7 @@ object BonPemakaianSparepartFrm: TBonPemakaianSparepartFrm
               37.041666666666670000
               1137.708333333333000000
               169.333333333333300000
-              76.729166666666670000)
+              76.729166666666660000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -2188,7 +2188,7 @@ object BonPemakaianSparepartFrm: TBonPemakaianSparepartFrm
               37.041666666666670000
               418.041666666666700000
               21.166666666666670000
-              76.729166666666670000)
+              76.729166666666660000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -2220,7 +2220,7 @@ object BonPemakaianSparepartFrm: TBonPemakaianSparepartFrm
               37.041666666666670000
               418.041666666666700000
               169.333333333333300000
-              76.729166666666670000)
+              76.729166666666660000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -2252,7 +2252,7 @@ object BonPemakaianSparepartFrm: TBonPemakaianSparepartFrm
               37.041666666666670000
               777.875000000000000000
               169.333333333333300000
-              76.729166666666670000)
+              76.729166666666660000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -2284,7 +2284,7 @@ object BonPemakaianSparepartFrm: TBonPemakaianSparepartFrm
               37.041666666666670000
               777.875000000000000000
               21.166666666666670000
-              76.729166666666670000)
+              76.729166666666660000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -2314,9 +2314,9 @@ object BonPemakaianSparepartFrm: TBonPemakaianSparepartFrm
             Frame.DrawRight = False
             Size.Values = (
               47.625000000000000000
-              772.583333333333300000
+              772.583333333333400000
               211.666666666666700000
-              84.666666666666670000)
+              84.666666666666680000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -2348,7 +2348,7 @@ object BonPemakaianSparepartFrm: TBonPemakaianSparepartFrm
               47.625000000000000000
               1132.416666666667000000
               211.666666666666700000
-              84.666666666666670000)
+              84.666666666666680000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -2380,7 +2380,7 @@ object BonPemakaianSparepartFrm: TBonPemakaianSparepartFrm
               47.625000000000000000
               1492.250000000000000000
               211.666666666666700000
-              84.666666666666670000)
+              84.666666666666680000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -2412,7 +2412,7 @@ object BonPemakaianSparepartFrm: TBonPemakaianSparepartFrm
               37.041666666666670000
               412.750000000000000000
               211.666666666666700000
-              84.666666666666670000)
+              84.666666666666680000)
             Alignment = taCenter
             AlignToBand = False
             AutoSize = True
@@ -2541,7 +2541,7 @@ object BonPemakaianSparepartFrm: TBonPemakaianSparepartFrm
           ForceNewColumn = False
           ForceNewPage = False
           Size.Values = (
-            66.145833333333330000
+            66.145833333333340000
             1928.812500000000000000)
           BandType = rbGroupFooter
           object QRLabel10: TQRLabel
@@ -3569,7 +3569,7 @@ object BonPemakaianSparepartFrm: TBonPemakaianSparepartFrm
             Frame.DrawRight = False
             Size.Values = (
               55.562500000000000000
-              740.833333333333300000
+              740.833333333333400000
               63.500000000000000000
               415.395833333333300000)
             Alignment = taCenter
@@ -3650,7 +3650,7 @@ object BonPemakaianSparepartFrm: TBonPemakaianSparepartFrm
             Frame.DrawRight = False
             Size.Values = (
               37.041666666666670000
-              84.666666666666670000
+              84.666666666666680000
               0.000000000000000000
               140.229166666666700000)
             Alignment = taLeftJustify
@@ -3745,7 +3745,7 @@ object BonPemakaianSparepartFrm: TBonPemakaianSparepartFrm
               37.041666666666670000
               762.000000000000000000
               0.000000000000000000
-              82.020833333333330000)
+              82.020833333333340000)
             Alignment = taLeftJustify
             AlignToBand = False
             AutoSize = True
@@ -3774,7 +3774,7 @@ object BonPemakaianSparepartFrm: TBonPemakaianSparepartFrm
             Frame.DrawRight = False
             Size.Values = (
               37.041666666666670000
-              931.333333333333300000
+              931.333333333333400000
               0.000000000000000000
               330.729166666666700000)
             Alignment = taLeftJustify
@@ -4041,7 +4041,7 @@ object BonPemakaianSparepartFrm: TBonPemakaianSparepartFrm
               37.041666666666670000
               1571.625000000000000000
               0.000000000000000000
-              74.083333333333330000)
+              74.083333333333340000)
             Alignment = taLeftJustify
             AlignToBand = False
             AutoSize = True
@@ -4067,7 +4067,7 @@ object BonPemakaianSparepartFrm: TBonPemakaianSparepartFrm
               37.041666666666670000
               1788.583333333333000000
               0.000000000000000000
-              60.854166666666670000)
+              60.854166666666660000)
             Alignment = taRightJustify
             AlignToBand = False
             AutoSize = True
@@ -4110,7 +4110,7 @@ object BonPemakaianSparepartFrm: TBonPemakaianSparepartFrm
             Frame.DrawRight = False
             Size.Values = (
               37.041666666666670000
-              859.895833333333300000
+              859.895833333333400000
               21.166666666666670000
               179.916666666666700000)
             Alignment = taCenter
@@ -4482,6 +4482,7 @@ object BonPemakaianSparepartFrm: TBonPemakaianSparepartFrm
           'KD_JNS_ITEM'#9'#,&'#9'T'#9'T')
         Selected.Strings = (
           'NO_NOTA'#9'15'#9'NO NOTA'#9'F'
+          'NO_REFF'#9'15'#9'NO VALIDASI'#9'F'
           'TANGGAL'#9'11'#9'TANGGAL'#9'F'
           'SUB_BAGIAN'#9'13'#9'SUB BAGIAN'#9'F'
           'KD_ITEM'#9'10'#9'KODE'#9'F'#9'ITEM BARANG'
@@ -5635,6 +5636,7 @@ object BonPemakaianSparepartFrm: TBonPemakaianSparepartFrm
     end
     object QTransaksiNO_REG_BON: TIntegerField
       FieldName = 'NO_REG_BON'
+      OnChange = QTransaksiNO_REG_BONChange
     end
     object QTransaksiJNS_KOREKSI: TStringField
       FieldName = 'JNS_KOREKSI'
@@ -5761,7 +5763,7 @@ object BonPemakaianSparepartFrm: TBonPemakaianSparepartFrm
   end
   object dsQDetail: TwwDataSource
     DataSet = QDetail
-    Left = 412
+    Left = 428
     Top = 105
   end
   object rvdTTD: TwwRecordViewDialog
@@ -5790,7 +5792,7 @@ object BonPemakaianSparepartFrm: TBonPemakaianSparepartFrm
       'TTD3'#9'50'#9'Ttd 3, Jab 3'#9'F'
       'TTD4'#9'50'#9'Ttd 4, Jab 4'#9'F')
     NavigatorFlat = True
-    Left = 464
+    Left = 512
     Top = 48
   end
   object QLookItem: TOracleDataSet
@@ -5889,7 +5891,7 @@ object BonPemakaianSparepartFrm: TBonPemakaianSparepartFrm
       003130320000000000080000003A4D59504152414D01000000110000006F7264
       6572206279204E4F5F4E4F54410000000000}
     QBEDefinition.QBEFieldDefs = {
-      04000000130000000C0000004B445F5452414E53414B53490100000000000700
+      04000000260000000C0000004B445F5452414E53414B53490100000000000700
       000054414E4747414C010000000000070000004E4F5F4E4F5441010000000000
       060000004953504F5354010000000000070000004B445F4954454D0100000000
       00090000004E414D415F4954454D010000000000040000005341543101000000
@@ -5899,7 +5901,19 @@ object BonPemakaianSparepartFrm: TBonPemakaianSparepartFrm
       530100000000000A0000004E4F5F5245475F424F4E0100000000000C00000051
       54595F56414C49444153490100000000000B0000004B445F4A4E535F4954454D
       010000000000050000004D4553494E010000000000070000004E4F5F52454646
-      0100000000000A00000054474C5F494E53455254010000000000}
+      0100000000000A00000054474C5F494E534552540100000000000A0000005154
+      595F564B47424F580100000000000D0000005154595F564B474B4152554E4701
+      00000000000C0000005154595F564B4750414C45540100000000000800000051
+      54595F56424F580100000000000B0000005154595F564B4152554E4701000000
+      00000A0000005154595F5650414C4554010000000000020000004B4B01000000
+      00000E0000004E4F5F4D4553494E5F54454E554E0100000000000A0000005154
+      595F4B475F424F580100000000000D0000005154595F4B475F4B4152554E4701
+      00000000000C0000005154595F4B475F50414C45540100000000000700000051
+      54595F424F580100000000000A0000005154595F4B4152554E47010000000000
+      090000005154595F50414C4554010000000000050000004953504A4B01000000
+      0000080000004B454C4F4D504F4B010000000000070000004E4F5F5041525401
+      0000000000090000005154595F4249534641010000000000120000005154595F
+      56414C49444153495F4249534641010000000000}
     QueryAllRecords = False
     CountAllRecords = True
     Session = DMFrm.OS
@@ -5980,6 +5994,10 @@ object BonPemakaianSparepartFrm: TBonPemakaianSparepartFrm
     object QBrowseTGL_INSERT: TDateTimeField
       FieldName = 'TGL_INSERT'
     end
+    object QBrowseNO_REFF: TStringField
+      FieldName = 'NO_REFF'
+      Size = 15
+    end
   end
   object dsQBrowse: TwwDataSource
     DataSet = QBrowse
@@ -6001,8 +6019,8 @@ object BonPemakaianSparepartFrm: TBonPemakaianSparepartFrm
       00004B445F44455054010000000000}
     Session = DMFrm.OS
     BeforeOpen = QLookSubBagianBeforeOpen
-    Left = 148
-    Top = 113
+    Left = 156
+    Top = 89
     object QLookSubBagianKODE: TStringField
       DisplayWidth = 2
       FieldName = 'KODE'
@@ -6102,7 +6120,7 @@ object BonPemakaianSparepartFrm: TBonPemakaianSparepartFrm
       000000}
     Session = DMFrm.OS
     Left = 367
-    Top = 59
+    Top = 43
     object QJnsTransaksiKD_TRANSAKSI: TStringField
       FieldName = 'KD_TRANSAKSI'
       Required = True
@@ -6171,13 +6189,13 @@ object BonPemakaianSparepartFrm: TBonPemakaianSparepartFrm
   end
   object dsQJnsTransaksi: TwwDataSource
     DataSet = QJnsTransaksi
-    Left = 416
-    Top = 48
+    Left = 448
+    Top = 40
   end
   object DSTGL: TwwDataSource
     DataSet = ODSTGL
-    Left = 644
-    Top = 81
+    Left = 620
+    Top = 57
   end
   object ODSTGL: TOracleDataSet
     SQL.Strings = (
@@ -6196,8 +6214,8 @@ object BonPemakaianSparepartFrm: TBonPemakaianSparepartFrm
     QueryAllRecords = False
     CountAllRecords = True
     Session = DMFrm.OS
-    Left = 684
-    Top = 73
+    Left = 660
+    Top = 65
     object ODSTGLNO_NOTA: TStringField
       FieldName = 'NO_NOTA'
       Size = 15
