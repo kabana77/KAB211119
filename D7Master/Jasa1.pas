@@ -398,6 +398,7 @@ type
     wwDBGrid5: TwwDBGrid;
     pktop: TPanel;
     Label19: TLabel;
+    QDetailNO_REG_JASA_D: TFloatField;
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure FormCreate(Sender: TObject);
     procedure wwDBGrid1TitleButtonClick(Sender: TObject;

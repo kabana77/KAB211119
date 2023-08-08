@@ -16,6 +16,7 @@ object DMFrm: TDMFrm
     LogonUsername = 'system'
     LogonPassword = 'syspmputra15'
     LogonDatabase = 'PMPUTRA'
+    Connected = True
     Left = 56
     Top = 40
   end

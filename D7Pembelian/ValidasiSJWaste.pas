@@ -457,6 +457,61 @@ type
     QBrowseKD_REKANAN: TStringField;
     QBrowseREKANAN: TStringField;
     Etahun: TEdit;
+    QuickRep5: TQuickRep;
+    QRBand16: TQRBand;
+    QRDBText95: TQRDBText;
+    QRDBText96: TQRDBText;
+    QRLabel55: TQRLabel;
+    QRBand17: TQRBand;
+    QRLabel56: TQRLabel;
+    QRExpr7: TQRExpr;
+    QRDBText97: TQRDBText;
+    QRDBText98: TQRDBText;
+    QRDBText99: TQRDBText;
+    QRLabel57: TQRLabel;
+    QRLabel65: TQRLabel;
+    QRLabel66: TQRLabel;
+    QRDBText100: TQRDBText;
+    QRLabel67: TQRLabel;
+    QRLabel68: TQRLabel;
+    QRDBText101: TQRDBText;
+    QRLabel69: TQRLabel;
+    QRDBText102: TQRDBText;
+    QRBand18: TQRBand;
+    QRLabel72: TQRLabel;
+    QRLabel73: TQRLabel;
+    QRLabel74: TQRLabel;
+    QRLabel75: TQRLabel;
+    QRLabel76: TQRLabel;
+    QRBand19: TQRBand;
+    QRDBText104: TQRDBText;
+    QRDBText105: TQRDBText;
+    QRDBText106: TQRDBText;
+    QRDBText107: TQRDBText;
+    QRSysData9: TQRSysData;
+    QRBand20: TQRBand;
+    QRDBText108: TQRDBText;
+    QRDBText109: TQRDBText;
+    QRDBText110: TQRDBText;
+    QRDBText111: TQRDBText;
+    QRDBText112: TQRDBText;
+    QRDBText113: TQRDBText;
+    QRDBText114: TQRDBText;
+    QRDBText115: TQRDBText;
+    QRDBText116: TQRDBText;
+    QRDBText117: TQRDBText;
+    QRDBText118: TQRDBText;
+    QRDBText119: TQRDBText;
+    QRBand21: TQRBand;
+    QRSysData10: TQRSysData;
+    QRDBText120: TQRDBText;
+    QRDBText121: TQRDBText;
+    QRBand22: TQRBand;
+    QRLabel77: TQRLabel;
+    QRLabel78: TQRLabel;
+    QRExpr8: TQRExpr;
+    QRShape3: TQRShape;
+    QRGroup4: TQRGroup;
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure wwDBGrid1TitleButtonClick(Sender: TObject;
       AFieldName: String);
@@ -547,6 +602,8 @@ type
       var Accept: Boolean);
     procedure wwDBGrid4TitleButtonClick(Sender: TObject;
       AFieldName: String);
+    procedure QRBand17BeforePrint(Sender: TQRCustomBand;
+      var PrintBand: Boolean);
   private
     { Private declarations }
     vfilter, vorder, vfilter2 : String;
@@ -1025,6 +1082,9 @@ begin
                     end;
                     1 : begin
                         QuickRep2.Preview
+                    end;
+                    2 : begin
+                        QuickRep5.Preview
                     end;
                end;
             end
@@ -1646,6 +1706,21 @@ begin
   end
   else
   ShowMessage('Maaf, tidak bisa diurutkan menurut '+AFieldName+' !');
+end;
+
+procedure TValidasiSJWasteFrm.QRBand17BeforePrint(Sender: TQRCustomBand;
+  var PrintBand: Boolean);
+begin
+  if QTransaksiISPOST.AsString='1' then
+  begin
+    //if QTransaksiJNS_KOREKSI.AsString<>'' then
+    if QTransaksiKD_TRANSAKSI.AsString<>'SJ2' then
+       QRLabel56.Caption:=UpperCase(QTransaksiJNS_KOREKSI.AsString)
+    else
+       QRLabel56.Caption:=UpperCase(QJnsTransaksiNAMA_TRANSAKSI.AsString);
+  end
+    else
+    QRLabel56.Caption:='DRAFT';
 end;
 
 end.

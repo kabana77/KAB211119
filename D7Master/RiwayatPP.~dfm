@@ -12,7 +12,6 @@ object RiwayatPPFrm: TRiwayatPPFrm
   Font.Style = []
   OldCreateOrder = False
   Position = poDefault
-  Visible = True
   OnClose = FormClose
   OnCloseQuery = FormCloseQuery
   OnCreate = FormCreate

@@ -375,8 +375,8 @@ object RiwayatPPFrm: TRiwayatPPFrm
   end
   object dsQDataPO: TwwDataSource
     DataSet = QDataPO
-    Left = 156
-    Top = 177
+    Left = 188
+    Top = 193
   end
   object QDataLPB: TOracleDataSet
     SQL.Strings = (
@@ -443,7 +443,7 @@ object RiwayatPPFrm: TRiwayatPPFrm
   end
   object dsQDataLPB: TwwDataSource
     DataSet = QDataLPB
-    Left = 444
-    Top = 201
+    Left = 484
+    Top = 209
   end
 end
