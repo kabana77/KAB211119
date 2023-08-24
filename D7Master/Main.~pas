@@ -380,6 +380,7 @@ type
     N47: TMenuItem;
     Waste1: TMenuItem;
     Reuse1: TMenuItem;
+    BahanBakar1: TMenuItem;
     procedure OtoritasUserOperator1Click(Sender: TObject);
     procedure Proc_HapusMenu;
     procedure FormCreate(Sender: TObject);
@@ -720,13 +721,13 @@ uses OrganisasiBarang, DM, OtoritasUser, LogPesan, DiagnosaDanKK,
   Item_Jasa, NotaJasa, ValidasiBBMaklon, BAJasaProyek, ValidasiAffalMasuk,
   {PAffalMasuk,} IAffal, KartuStokAffal, LPBbng2, POBenang,
   NilaiKartuStokBBnew, ValidasiBonBenang, NotaJASAProyek, ValidasiSJWaste,
-  NilaiKartuStokPacknew, NilaiKartuStokSPPnew, NilaiKartuStokATKnew,
+  NilaiKartuStokPacknew, NilaiKartuStokSPPnew, NilaiKartuStokATKnew, NilaiKartuStokBBAKARnew,
   ReturPemakaianBBM, ReturPemakaianBBPisma, ValidasiReturBBM,
   ValidasiReturBB, PengirimanReuse, IReUse, KartuStokReuse,
   ValidasiReuseMasuk, ValidasiReuseIn, BonPemakaianReuse, PengirimanWaste,
   ValidasiPOIn, ValidasiSJPO, InfoJurnal, NotaJASAFreight,
   RekapPemakaianPerMesinNew, ValidasiSJBB, UnpostKhusus, ValidasiBBML,
-  BonPemakaianWaste;
+  BonPemakaianWaste, NilaiKartuStokBBAKARnew;
 
 {$R *.dfm}
 
@@ -1138,6 +1139,11 @@ begin
   end;
   LokasiFrm.Show;
  }
+  NilaiKartuStokBBAKARnewFrm:=TNilaiKartuStokATKnewFrm.Create(Application);
+  NilaiKartuStokBBAKARnewFrm.Caption:='Nilai Persediaan Bahan Bakar';
+  NilaiKartuStokBBAKARnewFrm.LTitle.Caption:='Nilai Persediaan Bahan Bakar';
+  NilaiKartuStokBBAKARnewFrm.vkd_jns_item:='4';
+  NilaiKartuStokBBAKARnewFrm.Show;
 end;
 
 procedure TMainFrm.RumahTangga1Click(Sender: TObject);

@@ -165,8 +165,7 @@ uses
   ValidasiSJBB in '..\D7Pembelian\ValidasiSJBB.pas' {ValidasiSJBBFrm},
   UnpostKhusus in 'UnpostKhusus.pas' {UnpostKhususFrm},
   ValidasiBBML in '..\D7Pembelian\ValidasiBBML.pas' {ValidasiBBMLFrm},
-  BonPemakaianWaste in '..\D7Pembelian\BonPemakaianWaste.pas' {BonPemakaianWasteFrm},
-  RiwayatPP in 'RiwayatPP.pas' {RiwayatPPFrm};
+  BonPemakaianWaste in '..\D7Pembelian\BonPemakaianWaste.pas' {BonPemakaianWasteFrm};
 
 {$R *.res}
 
@@ -182,7 +181,6 @@ begin
   Application.CreateForm(TBrowseFrm, BrowseFrm);
   Application.CreateForm(TKeteranganFrm, KeteranganFrm);
   Application.CreateForm(TReSkedulDlgFrm, ReSkedulDlgFrm);
-  Application.CreateForm(TRiwayatPPFrm, RiwayatPPFrm);
   Splash2Frm.Hide; // Hide Splash Screen
   Splash2Frm.Free; // Free Splah Screen
   Application.Run;

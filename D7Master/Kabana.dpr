@@ -165,7 +165,8 @@ uses
   ValidasiSJBB in '..\D7Pembelian\ValidasiSJBB.pas' {ValidasiSJBBFrm},
   UnpostKhusus in 'UnpostKhusus.pas' {UnpostKhususFrm},
   ValidasiBBML in '..\D7Pembelian\ValidasiBBML.pas' {ValidasiBBMLFrm},
-  BonPemakaianWaste in '..\D7Pembelian\BonPemakaianWaste.pas' {BonPemakaianWasteFrm};
+  BonPemakaianWaste in '..\D7Pembelian\BonPemakaianWaste.pas' {BonPemakaianWasteFrm},
+  NilaiKartuStokBBAKARnew in 'NilaiKartuStokBBAKARnew.pas' {NilaiKartuStokBBAKARnewFrm};
 
 {$R *.res}
 

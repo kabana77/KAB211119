@@ -18102,6 +18102,10 @@ object MainFrm: TMainFrm
           Caption = 'Sparepart'
           OnClick = Sparepart1Click
         end
+        object BahanBakar1: TMenuItem
+          Caption = 'Bahan Bakar'
+          OnClick = BahanBakar1Click
+        end
         object N43: TMenuItem
           Caption = '-'
         end
