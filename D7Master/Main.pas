@@ -381,6 +381,7 @@ type
     Waste1: TMenuItem;
     Reuse1: TMenuItem;
     BahanBakar1: TMenuItem;
+    Benang1: TMenuItem;
     procedure OtoritasUserOperator1Click(Sender: TObject);
     procedure Proc_HapusMenu;
     procedure FormCreate(Sender: TObject);
@@ -677,6 +678,7 @@ type
     procedure Waste1Click(Sender: TObject);
     procedure Reuse1Click(Sender: TObject);
     procedure R04Click(Sender: TObject);
+    procedure Benang1Click(Sender: TObject);
   private
     { Private declarations }
     vShowSplash : Boolean;
@@ -727,7 +729,7 @@ uses OrganisasiBarang, DM, OtoritasUser, LogPesan, DiagnosaDanKK,
   ValidasiReuseMasuk, ValidasiReuseIn, BonPemakaianReuse, PengirimanWaste,
   ValidasiPOIn, ValidasiSJPO, InfoJurnal, NotaJASAFreight,
   RekapPemakaianPerMesinNew, ValidasiSJBB, UnpostKhusus, ValidasiBBML,
-  BonPemakaianWaste, NilaiKartuStokBBAKARnew;
+  BonPemakaianWaste, NilaiKartuStokBBAKARnew, NilaiKartuStokBENANGnew;
 
 {$R *.dfm}
 
@@ -5669,6 +5671,15 @@ begin
   BonPemakaianWasteFrm.vkd_jns_item:='A';
   BonPemakaianWasteFrm.vkd_bag:='select id_bag from pmtx01.hak_bag where kd_transaksi=''R04''';
   BonPemakaianWasteFrm.Show;
+end;
+
+procedure TMainFrm.Benang1Click(Sender: TObject);
+begin
+  NilaiKartuStokBENANGnewFrm:=TNilaiKartuStokBENANGnewFrm.Create(Application);
+  NilaiKartuStokBENANGnewFrm.Caption:='Nilai Persediaan Benang';
+  NilaiKartuStokBENANGnewFrm.LTitle.Caption:='Nilai Persediaan Benang';
+  NilaiKartuStokBENANGnewFrm.vkd_jns_item:='6';
+  NilaiKartuStokBENANGnewFrm.Show;
 end;
 
 end.

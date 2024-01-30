@@ -103,7 +103,7 @@ object BKKFrm: TBKKFrm
           44.979166666666670000
           0.000000000000000000
           2.645833333333333000
-          359.833333333333400000)
+          359.833333333333300000)
         Alignment = taLeftJustify
         AlignToBand = True
         AutoSize = True
@@ -247,13 +247,13 @@ object BKKFrm: TBKKFrm
       ForceNewColumn = False
       ForceNewPage = False
       Size.Values = (
-        232.833333333333400000
+        232.833333333333300000
         1902.354166666667000000)
       BandType = rbTitle
       object QRLabel28: TQRLabel
-        Left = 275
+        Left = 253
         Top = 24
-        Width = 168
+        Width = 213
         Height = 24
         Frame.Color = clBlack
         Frame.DrawTop = False
@@ -262,9 +262,9 @@ object BKKFrm: TBKKFrm
         Frame.DrawRight = False
         Size.Values = (
           63.500000000000000000
-          727.604166666666800000
+          669.395833333333300000
           63.500000000000000000
-          444.500000000000000000)
+          563.562500000000000000)
         Alignment = taCenter
         AlignToBand = True
         AutoSize = True
@@ -437,7 +437,7 @@ object BKKFrm: TBKKFrm
         Size.Values = (
           37.041666666666670000
           1526.645833333333000000
-          84.666666666666680000
+          84.666666666666670000
           105.833333333333300000)
         Alignment = taLeftJustify
         AlignToBand = False
@@ -527,7 +527,7 @@ object BKKFrm: TBKKFrm
           37.041666666666670000
           1526.645833333333000000
           129.645833333333300000
-          60.854166666666680000)
+          60.854166666666670000)
         Alignment = taLeftJustify
         AlignToBand = False
         AutoSize = True
@@ -611,7 +611,7 @@ object BKKFrm: TBKKFrm
       ForceNewColumn = False
       ForceNewPage = False
       Size.Values = (
-        89.958333333333340000
+        89.958333333333330000
         1902.354166666667000000)
       BandType = rbColumnHeader
       object QRLabel36: TQRLabel
@@ -626,10 +626,10 @@ object BKKFrm: TBKKFrm
         Frame.DrawLeft = False
         Frame.DrawRight = False
         Size.Values = (
-          42.333333333333340000
+          42.333333333333330000
           627.062500000000000000
           39.687500000000000000
-          66.145833333333340000)
+          66.145833333333330000)
         Alignment = taLeftJustify
         AlignToBand = False
         AutoSize = True
@@ -657,10 +657,10 @@ object BKKFrm: TBKKFrm
         Frame.DrawLeft = False
         Frame.DrawRight = False
         Size.Values = (
-          42.333333333333340000
-          84.666666666666680000
-          42.333333333333340000
-          216.958333333333400000)
+          42.333333333333330000
+          84.666666666666670000
+          42.333333333333330000
+          216.958333333333300000)
         Alignment = taLeftJustify
         AlignToBand = False
         AutoSize = True
@@ -688,9 +688,9 @@ object BKKFrm: TBKKFrm
         Frame.DrawLeft = False
         Frame.DrawRight = False
         Size.Values = (
-          42.333333333333340000
-          806.979166666666800000
-          42.333333333333340000
+          42.333333333333330000
+          806.979166666666700000
+          42.333333333333330000
           142.875000000000000000)
         Alignment = taLeftJustify
         AlignToBand = False
@@ -719,9 +719,9 @@ object BKKFrm: TBKKFrm
         Frame.DrawLeft = False
         Frame.DrawRight = False
         Size.Values = (
-          42.333333333333340000
+          42.333333333333330000
           21.166666666666670000
-          42.333333333333340000
+          42.333333333333330000
           50.270833333333330000)
         Alignment = taLeftJustify
         AlignToBand = False
@@ -750,9 +750,9 @@ object BKKFrm: TBKKFrm
         Frame.DrawLeft = False
         Frame.DrawRight = False
         Size.Values = (
-          42.333333333333340000
+          42.333333333333330000
           1227.666666666667000000
-          42.333333333333340000
+          42.333333333333330000
           134.937500000000000000)
         Alignment = taRightJustify
         AlignToBand = False
@@ -781,9 +781,9 @@ object BKKFrm: TBKKFrm
         Frame.DrawLeft = False
         Frame.DrawRight = False
         Size.Values = (
-          42.333333333333340000
+          42.333333333333330000
           1566.333333333333000000
-          42.333333333333340000
+          42.333333333333330000
           108.479166666666700000)
         Alignment = taRightJustify
         AlignToBand = False
@@ -814,7 +814,7 @@ object BKKFrm: TBKKFrm
         Size.Values = (
           37.041666666666670000
           1778.000000000000000000
-          42.333333333333340000
+          42.333333333333330000
           108.479166666666700000)
         Alignment = taRightJustify
         AlignToBand = False
@@ -843,9 +843,9 @@ object BKKFrm: TBKKFrm
         Frame.DrawLeft = False
         Frame.DrawRight = False
         Size.Values = (
-          42.333333333333340000
+          42.333333333333330000
           849.312500000000000000
-          42.333333333333340000
+          42.333333333333330000
           150.812500000000000000)
         Alignment = taLeftJustify
         AlignToBand = False
@@ -911,7 +911,7 @@ object BKKFrm: TBKKFrm
       ForceNewColumn = False
       ForceNewPage = False
       Size.Values = (
-        42.333333333333340000
+        42.333333333333330000
         1902.354166666667000000)
       BandType = rbDetail
       object QRDBText24: TQRDBText
@@ -990,8 +990,8 @@ object BKKFrm: TBKKFrm
         Frame.DrawLeft = False
         Frame.DrawRight = False
         Size.Values = (
-          42.333333333333340000
-          806.979166666666800000
+          42.333333333333330000
+          806.979166666666700000
           0.000000000000000000
           153.458333333333300000)
         Alignment = taLeftJustify
@@ -1051,7 +1051,7 @@ object BKKFrm: TBKKFrm
         Frame.DrawLeft = False
         Frame.DrawRight = False
         Size.Values = (
-          42.333333333333340000
+          42.333333333333330000
           1563.687500000000000000
           0.000000000000000000
           108.479166666666700000)
@@ -1084,7 +1084,7 @@ object BKKFrm: TBKKFrm
         Frame.DrawLeft = False
         Frame.DrawRight = False
         Size.Values = (
-          42.333333333333340000
+          42.333333333333330000
           1764.770833333333000000
           0.000000000000000000
           119.062500000000000000)
@@ -1205,7 +1205,7 @@ object BKKFrm: TBKKFrm
           37.041666666666670000
           1497.541666666667000000
           21.166666666666670000
-          76.729166666666680000)
+          76.729166666666670000)
         Alignment = taCenter
         AlignToBand = False
         AutoSize = True
@@ -1237,7 +1237,7 @@ object BKKFrm: TBKKFrm
           37.041666666666670000
           1497.541666666667000000
           169.333333333333300000
-          76.729166666666680000)
+          76.729166666666670000)
         Alignment = taCenter
         AlignToBand = False
         AutoSize = True
@@ -1269,7 +1269,7 @@ object BKKFrm: TBKKFrm
           37.041666666666670000
           1492.250000000000000000
           206.375000000000000000
-          84.666666666666680000)
+          84.666666666666670000)
         Alignment = taCenter
         AlignToBand = False
         AutoSize = True
@@ -1301,7 +1301,7 @@ object BKKFrm: TBKKFrm
           37.041666666666670000
           1137.708333333333000000
           21.166666666666670000
-          76.729166666666680000)
+          76.729166666666670000)
         Alignment = taCenter
         AlignToBand = False
         AutoSize = True
@@ -1333,7 +1333,7 @@ object BKKFrm: TBKKFrm
           37.041666666666670000
           1137.708333333333000000
           169.333333333333300000
-          76.729166666666680000)
+          76.729166666666670000)
         Alignment = taCenter
         AlignToBand = False
         AutoSize = True
@@ -1365,7 +1365,7 @@ object BKKFrm: TBKKFrm
           37.041666666666670000
           1132.416666666667000000
           206.375000000000000000
-          84.666666666666680000)
+          84.666666666666670000)
         Alignment = taCenter
         AlignToBand = False
         AutoSize = True
@@ -1395,9 +1395,9 @@ object BKKFrm: TBKKFrm
         Frame.DrawRight = False
         Size.Values = (
           37.041666666666670000
-          756.708333333333400000
+          756.708333333333300000
           21.166666666666670000
-          76.729166666666680000)
+          76.729166666666670000)
         Alignment = taCenter
         AlignToBand = False
         AutoSize = True
@@ -1427,9 +1427,9 @@ object BKKFrm: TBKKFrm
         Frame.DrawRight = False
         Size.Values = (
           37.041666666666670000
-          756.708333333333400000
+          756.708333333333300000
           169.333333333333300000
-          76.729166666666680000)
+          76.729166666666670000)
         Alignment = taCenter
         AlignToBand = False
         AutoSize = True
@@ -1459,9 +1459,9 @@ object BKKFrm: TBKKFrm
         Frame.DrawRight = False
         Size.Values = (
           37.041666666666670000
-          759.354166666666800000
+          759.354166666666700000
           206.375000000000000000
-          68.791666666666680000)
+          68.791666666666670000)
         Alignment = taCenter
         AlignToBand = False
         AutoSize = True
@@ -1493,7 +1493,7 @@ object BKKFrm: TBKKFrm
           37.041666666666670000
           396.875000000000000000
           21.166666666666670000
-          76.729166666666680000)
+          76.729166666666670000)
         Alignment = taCenter
         AlignToBand = False
         AutoSize = True
@@ -1525,7 +1525,7 @@ object BKKFrm: TBKKFrm
           37.041666666666670000
           396.875000000000000000
           169.333333333333300000
-          76.729166666666680000)
+          76.729166666666670000)
         Alignment = taCenter
         AlignToBand = False
         AutoSize = True
@@ -1555,9 +1555,9 @@ object BKKFrm: TBKKFrm
         Frame.DrawRight = False
         Size.Values = (
           37.041666666666670000
-          391.583333333333400000
+          391.583333333333300000
           206.375000000000000000
-          84.666666666666680000)
+          84.666666666666670000)
         Alignment = taCenter
         AlignToBand = False
         AutoSize = True
@@ -1591,7 +1591,7 @@ object BKKFrm: TBKKFrm
       ForceNewColumn = False
       ForceNewPage = False
       Size.Values = (
-        42.333333333333340000
+        42.333333333333330000
         1902.354166666667000000)
       BandType = rbPageFooter
       object QRSysData5: TQRSysData
@@ -1656,7 +1656,7 @@ object BKKFrm: TBKKFrm
         Frame.DrawRight = False
         Size.Values = (
           37.041666666666670000
-          867.833333333333400000
+          867.833333333333300000
           0.000000000000000000
           164.041666666666700000)
         Alignment = taCenter
@@ -1701,7 +1701,7 @@ object BKKFrm: TBKKFrm
         Frame.DrawRight = False
         Size.Values = (
           37.041666666666670000
-          859.895833333333400000
+          859.895833333333300000
           63.500000000000000000
           179.916666666666700000)
         Alignment = taCenter
@@ -1727,8 +1727,8 @@ object BKKFrm: TBKKFrm
         Size.Values = (
           121.708333333333300000
           0.000000000000000000
-          42.333333333333340000
-          828.145833333333400000)
+          42.333333333333330000
+          828.145833333333300000)
         Alignment = taLeftJustify
         AlignToBand = True
         AutoSize = False
@@ -1799,7 +1799,7 @@ object BKKFrm: TBKKFrm
         Frame.DrawLeft = False
         Frame.DrawRight = False
         Size.Values = (
-          42.333333333333340000
+          42.333333333333330000
           1553.104166666667000000
           21.166666666666670000
           330.729166666666700000)
@@ -1833,7 +1833,7 @@ object BKKFrm: TBKKFrm
         Frame.DrawLeft = False
         Frame.DrawRight = False
         Size.Values = (
-          42.333333333333340000
+          42.333333333333330000
           1217.083333333333000000
           21.166666666666670000
           100.541666666666700000)
@@ -1864,10 +1864,10 @@ object BKKFrm: TBKKFrm
         Frame.DrawLeft = False
         Frame.DrawRight = False
         Size.Values = (
-          42.333333333333340000
+          42.333333333333330000
           1352.020833333333000000
           21.166666666666670000
-          320.145833333333400000)
+          320.145833333333300000)
         Alignment = taRightJustify
         AlignToBand = False
         AutoSize = True
@@ -2193,7 +2193,7 @@ object BKKFrm: TBKKFrm
               44.979166666666670000
               0.000000000000000000
               2.645833333333333000
-              359.833333333333400000)
+              359.833333333333300000)
             Alignment = taLeftJustify
             AlignToBand = True
             AutoSize = True
@@ -2335,13 +2335,13 @@ object BKKFrm: TBKKFrm
           ForceNewColumn = False
           ForceNewPage = False
           Size.Values = (
-            232.833333333333400000
+            232.833333333333300000
             1902.354166666667000000)
           BandType = rbTitle
           object QRLTitle2: TQRLabel
-            Left = 275
+            Left = 253
             Top = 24
-            Width = 168
+            Width = 213
             Height = 24
             Frame.Color = clBlack
             Frame.DrawTop = False
@@ -2350,9 +2350,9 @@ object BKKFrm: TBKKFrm
             Frame.DrawRight = False
             Size.Values = (
               63.500000000000000000
-              727.604166666666800000
+              669.395833333333300000
               63.500000000000000000
-              444.500000000000000000)
+              563.562500000000000000)
             Alignment = taCenter
             AlignToBand = True
             AutoSize = True
@@ -2437,7 +2437,7 @@ object BKKFrm: TBKKFrm
             Size.Values = (
               37.041666666666670000
               1526.645833333333000000
-              84.666666666666680000
+              84.666666666666670000
               105.833333333333300000)
             Alignment = taLeftJustify
             AlignToBand = False
@@ -2463,7 +2463,7 @@ object BKKFrm: TBKKFrm
               108.479166666666700000
               0.000000000000000000
               63.500000000000000000
-              701.145833333333400000)
+              701.145833333333300000)
             Alignment = taLeftJustify
             AlignToBand = True
             AutoSize = False
@@ -2615,7 +2615,7 @@ object BKKFrm: TBKKFrm
               37.041666666666670000
               1526.645833333333000000
               129.645833333333300000
-              60.854166666666680000)
+              60.854166666666670000)
             Alignment = taLeftJustify
             AlignToBand = False
             AutoSize = True
@@ -2674,7 +2674,7 @@ object BKKFrm: TBKKFrm
           ForceNewColumn = False
           ForceNewPage = False
           Size.Values = (
-            89.958333333333340000
+            89.958333333333330000
             1902.354166666667000000)
           BandType = rbColumnHeader
           object QRLabel12: TQRLabel
@@ -2689,9 +2689,9 @@ object BKKFrm: TBKKFrm
             Frame.DrawRight = False
             Size.Values = (
               37.041666666666670000
-              82.020833333333340000
-              42.333333333333340000
-              60.854166666666680000)
+              82.020833333333330000
+              42.333333333333330000
+              60.854166666666670000)
             Alignment = taLeftJustify
             AlignToBand = False
             AutoSize = True
@@ -2720,8 +2720,8 @@ object BKKFrm: TBKKFrm
             Frame.DrawRight = False
             Size.Values = (
               37.041666666666670000
-              256.645833333333400000
-              42.333333333333340000
+              256.645833333333300000
+              42.333333333333330000
               198.437500000000000000)
             Alignment = taLeftJustify
             AlignToBand = False
@@ -2751,8 +2751,8 @@ object BKKFrm: TBKKFrm
             Frame.DrawRight = False
             Size.Values = (
               37.041666666666670000
-              780.520833333333400000
-              42.333333333333340000
+              780.520833333333300000
+              42.333333333333330000
               127.000000000000000000)
             Alignment = taLeftJustify
             AlignToBand = False
@@ -2783,7 +2783,7 @@ object BKKFrm: TBKKFrm
             Size.Values = (
               37.041666666666670000
               21.166666666666670000
-              42.333333333333340000
+              42.333333333333330000
               44.979166666666670000)
             Alignment = taLeftJustify
             AlignToBand = False
@@ -2814,7 +2814,7 @@ object BKKFrm: TBKKFrm
             Size.Values = (
               37.041666666666670000
               1280.583333333333000000
-              42.333333333333340000
+              42.333333333333330000
               124.354166666666700000)
             Alignment = taRightJustify
             AlignToBand = False
@@ -2845,8 +2845,8 @@ object BKKFrm: TBKKFrm
             Size.Values = (
               37.041666666666670000
               1558.395833333333000000
-              42.333333333333340000
-              97.895833333333340000)
+              42.333333333333330000
+              97.895833333333330000)
             Alignment = taRightJustify
             AlignToBand = False
             AutoSize = True
@@ -2876,7 +2876,7 @@ object BKKFrm: TBKKFrm
             Size.Values = (
               37.041666666666670000
               1778.000000000000000000
-              42.333333333333340000
+              42.333333333333330000
               108.479166666666700000)
             Alignment = taRightJustify
             AlignToBand = False
@@ -2938,7 +2938,7 @@ object BKKFrm: TBKKFrm
             Size.Values = (
               37.041666666666670000
               849.312500000000000000
-              42.333333333333340000
+              42.333333333333330000
               140.229166666666700000)
             Alignment = taLeftJustify
             AlignToBand = False
@@ -2973,7 +2973,7 @@ object BKKFrm: TBKKFrm
           ForceNewColumn = False
           ForceNewPage = False
           Size.Values = (
-            42.333333333333340000
+            42.333333333333330000
             1902.354166666667000000)
           BandType = rbDetail
           object QRDBText17: TQRDBText
@@ -2994,7 +2994,7 @@ object BKKFrm: TBKKFrm
             Alignment = taLeftJustify
             AlignToBand = False
             AutoSize = False
-            AutoStretch = False
+            AutoStretch = True
             Color = clWhite
             DataSet = QDetail
             DataField = 'KD_PERK'
@@ -3051,7 +3051,7 @@ object BKKFrm: TBKKFrm
             Frame.DrawLeft = False
             Frame.DrawRight = False
             Size.Values = (
-              42.333333333333340000
+              42.333333333333330000
               769.937500000000000000
               0.000000000000000000
               153.458333333333300000)
@@ -3112,7 +3112,7 @@ object BKKFrm: TBKKFrm
             Frame.DrawLeft = False
             Frame.DrawRight = False
             Size.Values = (
-              42.333333333333340000
+              42.333333333333330000
               1550.458333333333000000
               0.000000000000000000
               108.479166666666700000)
@@ -3145,7 +3145,7 @@ object BKKFrm: TBKKFrm
             Frame.DrawLeft = False
             Frame.DrawRight = False
             Size.Values = (
-              42.333333333333340000
+              42.333333333333330000
               1767.416666666667000000
               0.000000000000000000
               119.062500000000000000)
@@ -3652,7 +3652,7 @@ object BKKFrm: TBKKFrm
           ForceNewColumn = False
           ForceNewPage = False
           Size.Values = (
-            42.333333333333340000
+            42.333333333333330000
             1902.354166666667000000)
           BandType = rbPageFooter
           object QRSysData4: TQRSysData
@@ -3717,7 +3717,7 @@ object BKKFrm: TBKKFrm
             Frame.DrawRight = False
             Size.Values = (
               37.041666666666670000
-              867.833333333333400000
+              867.833333333333300000
               0.000000000000000000
               164.041666666666700000)
             Alignment = taCenter
@@ -3762,7 +3762,7 @@ object BKKFrm: TBKKFrm
             Frame.DrawRight = False
             Size.Values = (
               37.041666666666670000
-              859.895833333333400000
+              859.895833333333300000
               63.500000000000000000
               179.916666666666700000)
             Alignment = taCenter
@@ -3788,8 +3788,8 @@ object BKKFrm: TBKKFrm
             Size.Values = (
               121.708333333333300000
               0.000000000000000000
-              42.333333333333340000
-              828.145833333333400000)
+              42.333333333333330000
+              828.145833333333300000)
             Alignment = taLeftJustify
             AlignToBand = True
             AutoSize = False
@@ -3894,7 +3894,7 @@ object BKKFrm: TBKKFrm
             Frame.DrawLeft = False
             Frame.DrawRight = False
             Size.Values = (
-              42.333333333333340000
+              42.333333333333330000
               1232.958333333333000000
               21.166666666666670000
               100.541666666666700000)
@@ -4048,7 +4048,7 @@ object BKKFrm: TBKKFrm
             Frame.DrawRight = False
             Size.Values = (
               37.041666666666670000
-              883.708333333333400000
+              883.708333333333300000
               127.000000000000000000
               179.916666666666700000)
             Alignment = taCenter
@@ -4492,7 +4492,7 @@ object BKKFrm: TBKKFrm
               37.041666666666670000
               0.000000000000000000
               21.166666666666670000
-              296.333333333333400000)
+              296.333333333333300000)
             Alignment = taLeftJustify
             AlignToBand = True
             AutoSize = True
@@ -4538,7 +4538,7 @@ object BKKFrm: TBKKFrm
               37.041666666666670000
               0.000000000000000000
               0.000000000000000000
-              296.333333333333400000)
+              296.333333333333300000)
             Alignment = taLeftJustify
             AlignToBand = True
             AutoSize = True
@@ -4562,7 +4562,7 @@ object BKKFrm: TBKKFrm
             Frame.DrawRight = False
             Size.Values = (
               55.562500000000000000
-              854.604166666666800000
+              854.604166666666700000
               44.979166666666670000
               240.770833333333300000)
             Alignment = taCenter
@@ -4582,9 +4582,9 @@ object BKKFrm: TBKKFrm
             FontSize = 12
           end
           object QRDBText16: TQRDBText
-            Left = 680
+            Left = 666
             Top = 40
-            Width = 53
+            Width = 67
             Height = 24
             Frame.Color = clBlack
             Frame.DrawTop = False
@@ -4593,9 +4593,9 @@ object BKKFrm: TBKKFrm
             Frame.DrawRight = False
             Size.Values = (
               63.500000000000000000
-              1799.166666666667000000
+              1762.125000000000000000
               105.833333333333300000
-              140.229166666666700000)
+              177.270833333333300000)
             Alignment = taRightJustify
             AlignToBand = False
             AutoSize = True
@@ -4676,9 +4676,9 @@ object BKKFrm: TBKKFrm
             Frame.DrawRight = False
             Size.Values = (
               37.041666666666670000
-              84.666666666666680000
+              84.666666666666670000
               145.520833333333300000
-              264.583333333333400000)
+              264.583333333333300000)
             Alignment = taLeftJustify
             AlignToBand = False
             AutoSize = True
@@ -4712,7 +4712,7 @@ object BKKFrm: TBKKFrm
           ForceNewColumn = False
           ForceNewPage = False
           Size.Values = (
-            84.666666666666680000
+            84.666666666666670000
             1949.979166666667000000)
           BandType = rbColumnHeader
           object QRLabel19: TQRLabel
@@ -4728,8 +4728,8 @@ object BKKFrm: TBKKFrm
             Size.Values = (
               37.041666666666670000
               1804.458333333333000000
-              42.333333333333340000
-              97.895833333333340000)
+              42.333333333333330000
+              97.895833333333330000)
             Alignment = taRightJustify
             AlignToBand = False
             AutoSize = True
@@ -4753,7 +4753,7 @@ object BKKFrm: TBKKFrm
             Size.Values = (
               37.041666666666670000
               0.000000000000000000
-              42.333333333333340000
+              42.333333333333330000
               44.979166666666670000)
             Alignment = taLeftJustify
             AlignToBand = True
@@ -4777,8 +4777,8 @@ object BKKFrm: TBKKFrm
             Frame.DrawRight = False
             Size.Values = (
               37.041666666666670000
-              84.666666666666680000
-              42.333333333333340000
+              84.666666666666670000
+              42.333333333333330000
               132.291666666666700000)
             Alignment = taLeftJustify
             AlignToBand = False
@@ -4803,7 +4803,7 @@ object BKKFrm: TBKKFrm
             Size.Values = (
               37.041666666666670000
               338.666666666666700000
-              42.333333333333340000
+              42.333333333333330000
               137.583333333333300000)
             Alignment = taLeftJustify
             AlignToBand = False
@@ -4827,8 +4827,8 @@ object BKKFrm: TBKKFrm
             Frame.DrawRight = False
             Size.Values = (
               37.041666666666670000
-              677.333333333333400000
-              42.333333333333340000
+              677.333333333333300000
+              42.333333333333330000
               198.437500000000000000)
             Alignment = taLeftJustify
             AlignToBand = False
@@ -4853,7 +4853,7 @@ object BKKFrm: TBKKFrm
             Size.Values = (
               37.041666666666670000
               1635.125000000000000000
-              42.333333333333340000
+              42.333333333333330000
               108.479166666666700000)
             Alignment = taRightJustify
             AlignToBand = False
@@ -4878,8 +4878,8 @@ object BKKFrm: TBKKFrm
             Size.Values = (
               37.041666666666670000
               1428.750000000000000000
-              42.333333333333340000
-              97.895833333333340000)
+              42.333333333333330000
+              97.895833333333330000)
             Alignment = taRightJustify
             AlignToBand = False
             AutoSize = True
@@ -4903,7 +4903,7 @@ object BKKFrm: TBKKFrm
             Size.Values = (
               37.041666666666670000
               529.166666666666700000
-              42.333333333333340000
+              42.333333333333330000
               79.375000000000000000)
             Alignment = taLeftJustify
             AlignToBand = False
@@ -5034,7 +5034,7 @@ object BKKFrm: TBKKFrm
               37.041666666666670000
               0.000000000000000000
               0.000000000000000000
-              82.020833333333340000)
+              82.020833333333330000)
             Alignment = taLeftJustify
             AlignToBand = True
             AutoSize = False
@@ -5118,7 +5118,7 @@ object BKKFrm: TBKKFrm
               37.041666666666670000
               1645.708333333333000000
               0.000000000000000000
-              97.895833333333340000)
+              97.895833333333330000)
             Alignment = taRightJustify
             AlignToBand = False
             AutoSize = True
@@ -5172,7 +5172,7 @@ object BKKFrm: TBKKFrm
           ForceNewColumn = False
           ForceNewPage = False
           Size.Values = (
-            42.333333333333340000
+            42.333333333333330000
             1949.979166666667000000)
           BandType = rbPageFooter
           object QRSysData2: TQRSysData

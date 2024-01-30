@@ -165,7 +165,9 @@ uses
   ValidasiSJBB in '..\D7Pembelian\ValidasiSJBB.pas' {ValidasiSJBBFrm},
   UnpostKhusus in 'UnpostKhusus.pas' {UnpostKhususFrm},
   ValidasiBBML in '..\D7Pembelian\ValidasiBBML.pas' {ValidasiBBMLFrm},
-  BonPemakaianWaste in '..\D7Pembelian\BonPemakaianWaste.pas' {BonPemakaianWasteFrm};
+  BonPemakaianWaste in '..\D7Pembelian\BonPemakaianWaste.pas' {BonPemakaianWasteFrm},
+  NilaiKartuStokBBAKARnew in 'NilaiKartuStokBBAKARnew.pas' {NilaiKartuStokBBAKARnewFrm},
+  NilaiKartuStokBENANGnew in 'NilaiKartuStokBENANGnew.pas' {NilaiKartuStokBENANGnewFrm};
 
 {$R *.res}
 
@@ -181,6 +183,7 @@ begin
   Application.CreateForm(TBrowseFrm, BrowseFrm);
   Application.CreateForm(TKeteranganFrm, KeteranganFrm);
   Application.CreateForm(TReSkedulDlgFrm, ReSkedulDlgFrm);
+  Application.CreateForm(TNilaiKartuStokBENANGnewFrm, NilaiKartuStokBENANGnewFrm);
   Splash2Frm.Hide; // Hide Splash Screen
   Splash2Frm.Free; // Free Splah Screen
   Application.Run;
